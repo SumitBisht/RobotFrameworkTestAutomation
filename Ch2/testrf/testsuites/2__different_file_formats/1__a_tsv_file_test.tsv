@@ -1,0 +1,9 @@
+*Setting*	*Value*	*Value*	*Value*
+Library	OperatingSystem		
+			
+*Variable*	*Value*	*Value*	*Value*
+@{MESSAGE}	Hello World!		
+			
+*Test Case*	*Action*	*Value*	*Value*
+the hulk Test	Log	This is a sample log from a tsv file	
+another case	Log	${MESSAGE}	

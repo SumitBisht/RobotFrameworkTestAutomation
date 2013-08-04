@@ -1,0 +1,6 @@
+***Test Cases***
+
+| Checking if the substring is fine | Should contain | The Times Of India | India | 
+| | Should contain | The Times Of India | Of India |
+| | Should contain | The Times Of India | Times |
+| | Should contain | The Times Of India | mes |

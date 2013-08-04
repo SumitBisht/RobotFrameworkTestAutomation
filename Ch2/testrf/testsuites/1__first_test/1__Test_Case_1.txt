@@ -1,0 +1,15 @@
+***Variables***
+@{chars} =  a  b  c  d
+#@{list}=  Set Variable  ${ 1, 2, 3, 4}
+
+***Test Cases***
+Case present  Should Contain  Hello world  world
+
+Case not present  Should Not Contain  this is the nation  rule
+
+Case repeated 
+  :FOR  ${char}  in  @{chars}
+  \    Run Keyword If  '${char}' == 'c'  Exit For Loop
+#  \    Sleep  1s
+  \    Log  This is the logged message
+  \    Should Contain  baby  ${char}
