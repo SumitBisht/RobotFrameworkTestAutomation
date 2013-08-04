@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generated="20130728 21:23:39.513" generator="Robot trunk 20130614 (Python 2.7.4 on linux2)">
+<suite source="/home/sumit/simpleapp/testsuites" id="s1" name="Testsuites">
+<suite source="/home/sumit/simpleapp/testsuites/Test_Case_1.txt" id="s1-s1" name="Test Case 1">
+<test id="s1-s1-t1" name="First Test Action">
+<kw type="kw" name="BuiltIn.Log">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>this is a basic test</arg>
+</arguments>
+<msg timestamp="20130728 21:23:39.564" level="INFO">this is a basic test</msg>
+<status status="PASS" endtime="20130728 21:23:39.564" starttime="20130728 21:23:39.563"></status>
+</kw>
+<doc></doc>
+<tags>
+</tags>
+<status status="PASS" endtime="20130728 21:23:39.564" critical="yes" starttime="20130728 21:23:39.562"></status>
+</test>
+<doc></doc>
+<metadata>
+</metadata>
+<status status="PASS" endtime="20130728 21:23:39.565" starttime="20130728 21:23:39.558"></status>
+</suite>
+<doc></doc>
+<metadata>
+</metadata>
+<status status="PASS" endtime="20130728 21:23:39.566" starttime="20130728 21:23:39.514"></status>
+</suite>
+<statistics>
+<total>
+<stat fail="0" pass="1">Critical Tests</stat>
+<stat fail="0" pass="1">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat fail="0" pass="1" id="s1" name="Testsuites">Testsuites</stat>
+<stat fail="0" pass="1" id="s1-s1" name="Test Case 1">Testsuites.Test Case 1</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

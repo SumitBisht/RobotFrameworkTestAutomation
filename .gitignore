@@ -1,0 +1,4 @@
+#Ignore the text editor backups
+*.txt~
+*.swp
+*~
