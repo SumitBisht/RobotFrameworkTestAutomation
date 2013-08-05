@@ -1,0 +1,12 @@
+*** Variables ***
+${VARIABLE}  This is a simple string variable
+@{STRINGS}  a  collection  of  strings
+
+*** Test Cases ***
+
+A Simple usage of variables  Log  ${VARIABLE}
+
+More complex task  Log  @{STRINGS}[0]
+  log  @{STRINGS}[1]
+  log  @{STRINGS}[2]
+  log  @{STRINGS}[3]
