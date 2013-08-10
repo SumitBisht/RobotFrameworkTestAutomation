@@ -1,12 +1,15 @@
+*** Setting ***
+Variables  variables.py
 *** Variables ***
 ${VARIABLE}  This is a simple string variable
 @{STRINGS}  a  collection  of  strings
-
 *** Test Cases ***
 
 A Simple usage of variables  Log  ${VARIABLE}
 
 More complex task  Log  @{STRINGS}[0]
-  log  @{STRINGS}[1]
+  log  this is @{STRINGS}[0] @{STRINGS}[1].
   log  @{STRINGS}[2]
   log  @{STRINGS}[3]
+
+Use variables from external file  Log  Marks Obtained: ${MARKS}

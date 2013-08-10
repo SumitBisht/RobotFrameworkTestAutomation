@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generated="20130804 23:36:30.210" generator="Robot trunk 20130614 (Python 2.7.4 on linux2)">
-<suite source="/home/sumit/testrf/testsuites" id="s1" name="Testsuites">
-<suite source="/home/sumit/testrf/testsuites/1__first_test" id="s1-s1" name="First Test">
-<suite source="/home/sumit/testrf/testsuites/1__first_test/1__Test_Case_1.txt" id="s1-s1-s1" name="Test Case 1">
+<robot generated="20130805 23:51:08.708" generator="Robot trunk 20130614 (Python 2.7.4 on linux2)">
+<suite source="/home/sumit/repo/RobotFrameworkTestAutomation/Ch2/testrf/testsuites" id="s1" name="Testsuites">
+<suite source="/home/sumit/repo/RobotFrameworkTestAutomation/Ch2/testrf/testsuites/1__first_test" id="s1-s1" name="First Test">
+<suite source="/home/sumit/repo/RobotFrameworkTestAutomation/Ch2/testrf/testsuites/1__first_test/1__Test_Case_1.txt" id="s1-s1-s1" name="Test Case 1">
 <test id="s1-s1-s1-t1" name="Case present">
 <kw type="kw" name="BuiltIn.Should Contain">
 <doc>Fails if `item1` does not contain `item2` one or more times.</doc>
@@ -10,12 +10,12 @@
 <arg>Hello world</arg>
 <arg>world</arg>
 </arguments>
-<status status="PASS" endtime="20130804 23:36:30.268" starttime="20130804 23:36:30.268"></status>
+<status status="PASS" endtime="20130805 23:51:08.799" starttime="20130805 23:51:08.798"></status>
 </kw>
 <doc></doc>
 <tags>
 </tags>
-<status status="PASS" endtime="20130804 23:36:30.269" critical="yes" starttime="20130804 23:36:30.267"></status>
+<status status="PASS" endtime="20130805 23:51:08.799" critical="yes" starttime="20130805 23:51:08.797"></status>
 </test>
 <test id="s1-s1-s1-t2" name="Case not present">
 <kw type="kw" name="BuiltIn.Should Not Contain">
@@ -24,12 +24,12 @@
 <arg>this is the nation</arg>
 <arg>rule</arg>
 </arguments>
-<status status="PASS" endtime="20130804 23:36:30.271" starttime="20130804 23:36:30.270"></status>
+<status status="PASS" endtime="20130805 23:51:08.801" starttime="20130805 23:51:08.801"></status>
 </kw>
 <doc></doc>
 <tags>
 </tags>
-<status status="PASS" endtime="20130804 23:36:30.271" critical="yes" starttime="20130804 23:36:30.269"></status>
+<status status="PASS" endtime="20130805 23:51:08.802" critical="yes" starttime="20130805 23:51:08.800"></status>
 </test>
 <test id="s1-s1-s1-t3" name="Case repeated">
 <kw type="for" name="${char} IN [ @{chars} ]">
@@ -46,15 +46,15 @@
 <arg>'${char}' == 'c'</arg>
 <arg>Exit For Loop</arg>
 </arguments>
-<status status="PASS" endtime="20130804 23:36:30.273" starttime="20130804 23:36:30.273"></status>
+<status status="PASS" endtime="20130805 23:51:08.805" starttime="20130805 23:51:08.804"></status>
 </kw>
 <kw type="kw" name="BuiltIn.Log">
 <doc>Logs the given message with the given level.</doc>
 <arguments>
 <arg>This is the logged message</arg>
 </arguments>
-<msg timestamp="20130804 23:36:30.274" level="INFO">This is the logged message</msg>
-<status status="PASS" endtime="20130804 23:36:30.274" starttime="20130804 23:36:30.273"></status>
+<msg timestamp="20130805 23:51:08.805" level="INFO">This is the logged message</msg>
+<status status="PASS" endtime="20130805 23:51:08.806" starttime="20130805 23:51:08.805"></status>
 </kw>
 <kw type="kw" name="BuiltIn.Should Contain">
 <doc>Fails if `item1` does not contain `item2` one or more times.</doc>
@@ -62,9 +62,9 @@
 <arg>baby</arg>
 <arg>${char}</arg>
 </arguments>
-<status status="PASS" endtime="20130804 23:36:30.274" starttime="20130804 23:36:30.274"></status>
+<status status="PASS" endtime="20130805 23:51:08.806" starttime="20130805 23:51:08.806"></status>
 </kw>
-<status status="PASS" endtime="20130804 23:36:30.274" starttime="20130804 23:36:30.272"></status>
+<status status="PASS" endtime="20130805 23:51:08.806" starttime="20130805 23:51:08.804"></status>
 </kw>
 <kw type="foritem" name="${char} = b">
 <doc></doc>
@@ -76,15 +76,15 @@
 <arg>'${char}' == 'c'</arg>
 <arg>Exit For Loop</arg>
 </arguments>
-<status status="PASS" endtime="20130804 23:36:30.275" starttime="20130804 23:36:30.275"></status>
+<status status="PASS" endtime="20130805 23:51:08.807" starttime="20130805 23:51:08.807"></status>
 </kw>
 <kw type="kw" name="BuiltIn.Log">
 <doc>Logs the given message with the given level.</doc>
 <arguments>
 <arg>This is the logged message</arg>
 </arguments>
-<msg timestamp="20130804 23:36:30.276" level="INFO">This is the logged message</msg>
-<status status="PASS" endtime="20130804 23:36:30.276" starttime="20130804 23:36:30.275"></status>
+<msg timestamp="20130805 23:51:08.807" level="INFO">This is the logged message</msg>
+<status status="PASS" endtime="20130805 23:51:08.808" starttime="20130805 23:51:08.807"></status>
 </kw>
 <kw type="kw" name="BuiltIn.Should Contain">
 <doc>Fails if `item1` does not contain `item2` one or more times.</doc>
@@ -92,9 +92,9 @@
 <arg>baby</arg>
 <arg>${char}</arg>
 </arguments>
-<status status="PASS" endtime="20130804 23:36:30.276" starttime="20130804 23:36:30.276"></status>
+<status status="PASS" endtime="20130805 23:51:08.808" starttime="20130805 23:51:08.808"></status>
 </kw>
-<status status="PASS" endtime="20130804 23:36:30.277" starttime="20130804 23:36:30.275"></status>
+<status status="PASS" endtime="20130805 23:51:08.808" starttime="20130805 23:51:08.806"></status>
 </kw>
 <kw type="foritem" name="${char} = c">
 <doc></doc>
@@ -110,65 +110,65 @@
 <doc>Stops executing the enclosing for loop.</doc>
 <arguments>
 </arguments>
-<msg timestamp="20130804 23:36:30.278" level="INFO">Exiting for loop altogether.</msg>
-<status status="PASS" endtime="20130804 23:36:30.278" starttime="20130804 23:36:30.278"></status>
+<msg timestamp="20130805 23:51:08.809" level="INFO">Exiting for loop altogether.</msg>
+<status status="PASS" endtime="20130805 23:51:08.809" starttime="20130805 23:51:08.809"></status>
 </kw>
-<status status="PASS" endtime="20130804 23:36:30.278" starttime="20130804 23:36:30.277"></status>
+<status status="PASS" endtime="20130805 23:51:08.810" starttime="20130805 23:51:08.808"></status>
 </kw>
-<status status="PASS" endtime="20130804 23:36:30.279" starttime="20130804 23:36:30.277"></status>
+<status status="PASS" endtime="20130805 23:51:08.810" starttime="20130805 23:51:08.808"></status>
 </kw>
-<status status="PASS" endtime="20130804 23:36:30.279" starttime="20130804 23:36:30.272"></status>
+<status status="PASS" endtime="20130805 23:51:08.810" starttime="20130805 23:51:08.803"></status>
 </kw>
 <doc></doc>
 <tags>
 </tags>
-<status status="PASS" endtime="20130804 23:36:30.279" critical="yes" starttime="20130804 23:36:30.271"></status>
+<status status="PASS" endtime="20130805 23:51:08.810" critical="yes" starttime="20130805 23:51:08.802"></status>
 </test>
 <doc></doc>
 <metadata>
 </metadata>
-<status status="PASS" endtime="20130804 23:36:30.280" starttime="20130804 23:36:30.263"></status>
+<status status="PASS" endtime="20130805 23:51:08.811" starttime="20130805 23:51:08.793"></status>
 </suite>
-<suite source="/home/sumit/testrf/testsuites/1__first_test/2__Test_Case_2.txt" id="s1-s1-s2" name="Test Case 2">
+<suite source="/home/sumit/repo/RobotFrameworkTestAutomation/Ch2/testrf/testsuites/1__first_test/2__Test_Case_2.txt" id="s1-s1-s2" name="Test Case 2">
 <test id="s1-s1-s2-t1" name="Printing some values">
 <kw type="kw" name="BuiltIn.Log">
 <doc>Logs the given message with the given level.</doc>
 <arguments>
 <arg>this is a dumb drill</arg>
 </arguments>
-<msg timestamp="20130804 23:36:30.287" level="INFO">this is a dumb drill</msg>
-<status status="PASS" endtime="20130804 23:36:30.287" starttime="20130804 23:36:30.286"></status>
+<msg timestamp="20130805 23:51:08.819" level="INFO">this is a dumb drill</msg>
+<status status="PASS" endtime="20130805 23:51:08.819" starttime="20130805 23:51:08.818"></status>
 </kw>
 <doc></doc>
 <tags>
 </tags>
-<status status="PASS" endtime="20130804 23:36:30.288" critical="yes" starttime="20130804 23:36:30.285"></status>
+<status status="PASS" endtime="20130805 23:51:08.819" critical="yes" starttime="20130805 23:51:08.817"></status>
 </test>
 <doc></doc>
 <metadata>
 </metadata>
-<status status="PASS" endtime="20130804 23:36:30.288" starttime="20130804 23:36:30.281"></status>
+<status status="PASS" endtime="20130805 23:51:08.820" starttime="20130805 23:51:08.813"></status>
 </suite>
 <doc></doc>
 <metadata>
 </metadata>
-<status status="PASS" endtime="20130804 23:36:30.290" starttime="20130804 23:36:30.259"></status>
+<status status="PASS" endtime="20130805 23:51:08.821" starttime="20130805 23:51:08.762"></status>
 </suite>
-<suite source="/home/sumit/testrf/testsuites/2__different_file_formats" id="s1-s2" name="Different File Formats">
-<suite source="/home/sumit/testrf/testsuites/2__different_file_formats/1__a_tsv_file_test.tsv" id="s1-s2-s1" name="A Tsv File Test">
+<suite source="/home/sumit/repo/RobotFrameworkTestAutomation/Ch2/testrf/testsuites/2__different_file_formats" id="s1-s2" name="Different File Formats">
+<suite source="/home/sumit/repo/RobotFrameworkTestAutomation/Ch2/testrf/testsuites/2__different_file_formats/1__a_tsv_file_test.tsv" id="s1-s2-s1" name="A Tsv File Test">
 <test id="s1-s2-s1-t1" name="the hulk Test">
 <kw type="kw" name="BuiltIn.Log">
 <doc>Logs the given message with the given level.</doc>
 <arguments>
 <arg>This is a sample log from a tsv file</arg>
 </arguments>
-<msg timestamp="20130804 23:36:30.331" level="INFO">This is a sample log from a tsv file</msg>
-<status status="PASS" endtime="20130804 23:36:30.332" starttime="20130804 23:36:30.331"></status>
+<msg timestamp="20130805 23:51:08.857" level="INFO">This is a sample log from a tsv file</msg>
+<status status="PASS" endtime="20130805 23:51:08.857" starttime="20130805 23:51:08.856"></status>
 </kw>
 <doc></doc>
 <tags>
 </tags>
-<status status="PASS" endtime="20130804 23:36:30.332" critical="yes" starttime="20130804 23:36:30.329"></status>
+<status status="PASS" endtime="20130805 23:51:08.857" critical="yes" starttime="20130805 23:51:08.856"></status>
 </test>
 <test id="s1-s2-s1-t2" name="another case">
 <kw type="kw" name="BuiltIn.Log">
@@ -176,33 +176,33 @@
 <arguments>
 <arg>${MESSAGE}</arg>
 </arguments>
-<msg timestamp="20130804 23:36:30.335" level="INFO">[u'Hello World!']</msg>
-<status status="PASS" endtime="20130804 23:36:30.335" starttime="20130804 23:36:30.334"></status>
+<msg timestamp="20130805 23:51:08.859" level="INFO">[u'Hello World!']</msg>
+<status status="PASS" endtime="20130805 23:51:08.859" starttime="20130805 23:51:08.858"></status>
 </kw>
 <doc></doc>
 <tags>
 </tags>
-<status status="PASS" endtime="20130804 23:36:30.336" critical="yes" starttime="20130804 23:36:30.333"></status>
+<status status="PASS" endtime="20130805 23:51:08.859" critical="yes" starttime="20130805 23:51:08.857"></status>
 </test>
 <doc></doc>
 <metadata>
 </metadata>
-<status status="PASS" endtime="20130804 23:36:30.337" starttime="20130804 23:36:30.297"></status>
+<status status="PASS" endtime="20130805 23:51:08.860" starttime="20130805 23:51:08.826"></status>
 </suite>
-<suite source="/home/sumit/testrf/testsuites/2__different_file_formats/2__a_tsv_file_test.txt" id="s1-s2-s2" name="A Tsv File Test">
+<suite source="/home/sumit/repo/RobotFrameworkTestAutomation/Ch2/testrf/testsuites/2__different_file_formats/2__a_tsv_file_test.txt" id="s1-s2-s2" name="A Tsv File Test">
 <test id="s1-s2-s2-t1" name="the hulk Test">
 <kw type="kw" name="BuiltIn.Log">
 <doc>Logs the given message with the given level.</doc>
 <arguments>
 <arg>This is a sample log from a tsv file</arg>
 </arguments>
-<msg timestamp="20130804 23:36:30.345" level="INFO">This is a sample log from a tsv file</msg>
-<status status="PASS" endtime="20130804 23:36:30.345" starttime="20130804 23:36:30.345"></status>
+<msg timestamp="20130805 23:51:08.867" level="INFO">This is a sample log from a tsv file</msg>
+<status status="PASS" endtime="20130805 23:51:08.867" starttime="20130805 23:51:08.867"></status>
 </kw>
 <doc></doc>
 <tags>
 </tags>
-<status status="PASS" endtime="20130804 23:36:30.346" critical="yes" starttime="20130804 23:36:30.344"></status>
+<status status="PASS" endtime="20130805 23:51:08.868" critical="yes" starttime="20130805 23:51:08.866"></status>
 </test>
 <test id="s1-s2-s2-t2" name="another case">
 <kw type="kw" name="BuiltIn.Log">
@@ -210,20 +210,20 @@
 <arguments>
 <arg>${MESSAGE}</arg>
 </arguments>
-<msg timestamp="20130804 23:36:30.349" level="INFO">[u'Hello World!']</msg>
-<status status="PASS" endtime="20130804 23:36:30.349" starttime="20130804 23:36:30.348"></status>
+<msg timestamp="20130805 23:51:08.870" level="INFO">[u'Hello World!']</msg>
+<status status="PASS" endtime="20130805 23:51:08.870" starttime="20130805 23:51:08.869"></status>
 </kw>
 <doc></doc>
 <tags>
 </tags>
-<status status="PASS" endtime="20130804 23:36:30.349" critical="yes" starttime="20130804 23:36:30.346"></status>
+<status status="PASS" endtime="20130805 23:51:08.870" critical="yes" starttime="20130805 23:51:08.868"></status>
 </test>
 <doc></doc>
 <metadata>
 </metadata>
-<status status="PASS" endtime="20130804 23:36:30.350" starttime="20130804 23:36:30.339"></status>
+<status status="PASS" endtime="20130805 23:51:08.871" starttime="20130805 23:51:08.861"></status>
 </suite>
-<suite source="/home/sumit/testrf/testsuites/2__different_file_formats/3__pipe_separated_test.txt" id="s1-s2-s3" name="Pipe Separated Test">
+<suite source="/home/sumit/repo/RobotFrameworkTestAutomation/Ch2/testrf/testsuites/2__different_file_formats/3__pipe_separated_test.txt" id="s1-s2-s3" name="Pipe Separated Test">
 <test id="s1-s2-s3-t1" name="Checking if the substring is fine">
 <kw type="kw" name="BuiltIn.Should Contain">
 <doc>Fails if `item1` does not contain `item2` one or more times.</doc>
@@ -231,7 +231,7 @@
 <arg>The Times Of India</arg>
 <arg>India</arg>
 </arguments>
-<status status="PASS" endtime="20130804 23:36:30.358" starttime="20130804 23:36:30.357"></status>
+<status status="PASS" endtime="20130805 23:51:08.878" starttime="20130805 23:51:08.878"></status>
 </kw>
 <kw type="kw" name="BuiltIn.Should Contain">
 <doc>Fails if `item1` does not contain `item2` one or more times.</doc>
@@ -239,7 +239,7 @@
 <arg>The Times Of India</arg>
 <arg>Of India</arg>
 </arguments>
-<status status="PASS" endtime="20130804 23:36:30.359" starttime="20130804 23:36:30.358"></status>
+<status status="PASS" endtime="20130805 23:51:08.879" starttime="20130805 23:51:08.878"></status>
 </kw>
 <kw type="kw" name="BuiltIn.Should Contain">
 <doc>Fails if `item1` does not contain `item2` one or more times.</doc>
@@ -247,7 +247,7 @@
 <arg>The Times Of India</arg>
 <arg>Times</arg>
 </arguments>
-<status status="PASS" endtime="20130804 23:36:30.359" starttime="20130804 23:36:30.359"></status>
+<status status="PASS" endtime="20130805 23:51:08.879" starttime="20130805 23:51:08.879"></status>
 </kw>
 <kw type="kw" name="BuiltIn.Should Contain">
 <doc>Fails if `item1` does not contain `item2` one or more times.</doc>
@@ -255,19 +255,19 @@
 <arg>The Times Of India</arg>
 <arg>mes</arg>
 </arguments>
-<status status="PASS" endtime="20130804 23:36:30.360" starttime="20130804 23:36:30.360"></status>
+<status status="PASS" endtime="20130805 23:51:08.880" starttime="20130805 23:51:08.880"></status>
 </kw>
 <doc></doc>
 <tags>
 </tags>
-<status status="PASS" endtime="20130804 23:36:30.364" critical="yes" starttime="20130804 23:36:30.356"></status>
+<status status="PASS" endtime="20130805 23:51:08.881" critical="yes" starttime="20130805 23:51:08.877"></status>
 </test>
 <doc></doc>
 <metadata>
 </metadata>
-<status status="PASS" endtime="20130804 23:36:30.365" starttime="20130804 23:36:30.352"></status>
+<status status="PASS" endtime="20130805 23:51:08.882" starttime="20130805 23:51:08.872"></status>
 </suite>
-<suite source="/home/sumit/testrf/testsuites/2__different_file_formats/4__markup_formatted_test.html" id="s1-s2-s4" name="Markup Formatted Test">
+<suite source="/home/sumit/repo/RobotFrameworkTestAutomation/Ch2/testrf/testsuites/2__different_file_formats/4__markup_formatted_test.html" id="s1-s2-s4" name="Markup Formatted Test">
 <test id="s1-s2-s4-t1" name="Checking if the substring is fine">
 <kw type="kw" name="BuiltIn.Should Contain">
 <doc>Fails if `item1` does not contain `item2` one or more times.</doc>
@@ -275,7 +275,7 @@
 <arg>The Times Of India</arg>
 <arg>India</arg>
 </arguments>
-<status status="PASS" endtime="20130804 23:36:30.371" starttime="20130804 23:36:30.371"></status>
+<status status="PASS" endtime="20130805 23:51:08.890" starttime="20130805 23:51:08.890"></status>
 </kw>
 <kw type="kw" name="BuiltIn.Should Contain">
 <doc>Fails if `item1` does not contain `item2` one or more times.</doc>
@@ -283,7 +283,7 @@
 <arg>The Times Of India</arg>
 <arg>Of India</arg>
 </arguments>
-<status status="PASS" endtime="20130804 23:36:30.372" starttime="20130804 23:36:30.372"></status>
+<status status="PASS" endtime="20130805 23:51:08.891" starttime="20130805 23:51:08.891"></status>
 </kw>
 <kw type="kw" name="BuiltIn.Should Contain">
 <doc>Fails if `item1` does not contain `item2` one or more times.</doc>
@@ -291,7 +291,7 @@
 <arg>The Times Of India</arg>
 <arg>Times</arg>
 </arguments>
-<status status="PASS" endtime="20130804 23:36:30.373" starttime="20130804 23:36:30.373"></status>
+<status status="PASS" endtime="20130805 23:51:08.892" starttime="20130805 23:51:08.891"></status>
 </kw>
 <kw type="kw" name="BuiltIn.Should Not Contain">
 <doc>Fails if `item1` contains `item2` one or more times.</doc>
@@ -299,27 +299,27 @@
 <arg>The Times Of India</arg>
 <arg>nothing</arg>
 </arguments>
-<status status="PASS" endtime="20130804 23:36:30.374" starttime="20130804 23:36:30.374"></status>
+<status status="PASS" endtime="20130805 23:51:08.892" starttime="20130805 23:51:08.892"></status>
 </kw>
 <doc></doc>
 <tags>
 </tags>
-<status status="PASS" endtime="20130804 23:36:30.375" critical="yes" starttime="20130804 23:36:30.370"></status>
+<status status="PASS" endtime="20130805 23:51:08.893" critical="yes" starttime="20130805 23:51:08.889"></status>
 </test>
 <doc></doc>
 <metadata>
 </metadata>
-<status status="PASS" endtime="20130804 23:36:30.376" starttime="20130804 23:36:30.366"></status>
+<status status="PASS" endtime="20130805 23:51:08.893" starttime="20130805 23:51:08.883"></status>
 </suite>
 <doc></doc>
 <metadata>
 </metadata>
-<status status="PASS" endtime="20130804 23:36:30.378" starttime="20130804 23:36:30.291"></status>
+<status status="PASS" endtime="20130805 23:51:08.895" starttime="20130805 23:51:08.822"></status>
 </suite>
 <doc></doc>
 <metadata>
 </metadata>
-<status status="PASS" endtime="20130804 23:36:30.381" starttime="20130804 23:36:30.210"></status>
+<status status="PASS" endtime="20130805 23:51:08.897" starttime="20130805 23:51:08.708"></status>
 </suite>
 <statistics>
 <total>

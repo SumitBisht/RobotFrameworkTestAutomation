@@ -1,0 +1,7 @@
+*** Setting ***
+Resource  resource_file.txt
+
+*** Test Cases ***
+User Resource  Welcome  Test User
+  Perform operation  12  15
+  Log  User specific keywords used

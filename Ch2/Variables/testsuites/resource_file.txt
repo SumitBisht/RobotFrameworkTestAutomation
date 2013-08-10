@@ -1,0 +1,10 @@
+*** Setting ***
+Documentation  this resource file can be be used by tests to use the custom keywords defined here.
+
+*** Variable ***
+
+*** Keyword ***
+Welcome  [Arguments]  ${username}
+  Log  Welcome to the customized Test by robot framework, ${username}!
+Perform operation  [Arguments]  ${arg1}  ${arg2}
+  Log  Performing some operation over ${arg1} and ${arg2}
