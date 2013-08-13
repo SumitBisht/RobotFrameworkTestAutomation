@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generated="20130814 00:14:39.895" generator="Robot trunk 20130614 (Python 2.7.4 on linux2)">
+<suite source="/home/sumit/repo/RobotFrameworkTestAutomation/Ch3/dynamic_iteration/testsuites" id="s1" name="Testsuites">
+<suite source="/home/sumit/repo/RobotFrameworkTestAutomation/Ch3/dynamic_iteration/testsuites/Python_Variable_User.txt" id="s1-s1" name="Python Variable User">
+<test id="s1-s1-t1" name="List should exist">
+<kw type="kw" name="BuiltIn.Variable Should Exist">
+<doc>Fails unless the given variable exists within the current scope.</doc>
+<arguments>
+<arg>@{var}</arg>
+</arguments>
+<status status="PASS" endtime="20130814 00:14:39.938" starttime="20130814 00:14:39.938"></status>
+</kw>
+<doc></doc>
+<tags>
+</tags>
+<status status="PASS" endtime="20130814 00:14:39.938" critical="yes" starttime="20130814 00:14:39.937"></status>
+</test>
+<test id="s1-s1-t2" name="Variable not declared should not be there">
+<kw type="kw" name="BuiltIn.Variable Should Not Exist">
+<doc>Fails if the given variable exists within the current scope.</doc>
+<arguments>
+<arg>${val}</arg>
+</arguments>
+<status status="PASS" endtime="20130814 00:14:39.940" starttime="20130814 00:14:39.940"></status>
+</kw>
+<doc></doc>
+<tags>
+</tags>
+<status status="PASS" endtime="20130814 00:14:39.941" critical="yes" starttime="20130814 00:14:39.939"></status>
+</test>
+<test id="s1-s1-t3" name="Iterate over Dynamic variables">
+<kw type="for" name="${val} IN [ @{var} ]">
+<doc></doc>
+<arguments>
+</arguments>
+<status status="PASS" endtime="20130814 00:14:39.942" starttime="20130814 00:14:39.942"></status>
+</kw>
+<kw type="kw" name="BuiltIn.Log">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>finished iteration</arg>
+</arguments>
+<msg timestamp="20130814 00:14:39.943" level="INFO">finished iteration</msg>
+<status status="PASS" endtime="20130814 00:14:39.943" starttime="20130814 00:14:39.943"></status>
+</kw>
+<doc></doc>
+<tags>
+</tags>
+<status status="PASS" endtime="20130814 00:14:39.944" critical="yes" starttime="20130814 00:14:39.941"></status>
+</test>
+<doc></doc>
+<metadata>
+</metadata>
+<status status="PASS" endtime="20130814 00:14:39.945" starttime="20130814 00:14:39.933"></status>
+</suite>
+<doc></doc>
+<metadata>
+</metadata>
+<status status="PASS" endtime="20130814 00:14:39.946" starttime="20130814 00:14:39.895"></status>
+</suite>
+<statistics>
+<total>
+<stat fail="0" pass="3">Critical Tests</stat>
+<stat fail="0" pass="3">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat fail="0" pass="3" id="s1" name="Testsuites">Testsuites</stat>
+<stat fail="0" pass="3" id="s1-s1" name="Python Variable User">Testsuites.Python Variable User</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

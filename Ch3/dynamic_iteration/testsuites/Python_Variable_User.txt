@@ -1,0 +1,8 @@
+| *Setting* | *Value* |
+| Variables | ./dynamic_variables.py |
+| *Test Cases* | *Action* | *Argument* |
+| List should exist | Variable Should Exist | @{var} |
+| Variable not declared should not be there | Variable Should Not Exist | ${val} |
+| Iterate over Dynamic variables | :FOR | ${val} | IN | @{var} |
+| 								 |		| Log	 | ${val} |
+|								 | Log  | finished iteration |
