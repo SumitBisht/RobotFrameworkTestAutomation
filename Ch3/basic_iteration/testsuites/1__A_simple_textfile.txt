@@ -1,0 +1,4 @@
+***Test Cases***
+Test a normal case  LOG  Yay, IT works!
+#Try repeating in simple whitespace text file  :FOR  ${VAR}  IN  Car  Bus  Train
+#    LOG  I am driving a ${VAR}

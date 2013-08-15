@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generated="20130815 13:04:14.191" generator="Robot trunk 20130614 (Python 2.7.4 on linux2)">
+<suite source="/home/sumit/repo/RobotFrameworkTestAutomation/Ch3/basic_iteration/testsuites" id="s1" name="Testsuites">
+<suite source="/home/sumit/repo/RobotFrameworkTestAutomation/Ch3/basic_iteration/testsuites/1__A_simple_textfile.txt" id="s1-s1" name="A simple textfile">
+<test id="s1-s1-t1" name="Test a normal case">
+<kw type="kw" name="BuiltIn.Log">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>Yay, IT works!</arg>
+</arguments>
+<msg timestamp="20130815 13:04:14.241" level="INFO">Yay, IT works!</msg>
+<status status="PASS" endtime="20130815 13:04:14.241" starttime="20130815 13:04:14.240"></status>
+</kw>
+<doc></doc>
+<tags>
+</tags>
+<status status="PASS" endtime="20130815 13:04:14.241" critical="yes" starttime="20130815 13:04:14.239"></status>
+</test>
+<doc></doc>
+<metadata>
+</metadata>
+<status status="PASS" endtime="20130815 13:04:14.242" starttime="20130815 13:04:14.235"></status>
+</suite>
+<suite source="/home/sumit/repo/RobotFrameworkTestAutomation/Ch3/basic_iteration/testsuites/2__Basic_Loop.txt" id="s1-s2" name="Basic Loop">
+<test id="s1-s2-t1" name="Iterate over Arguments">
+<kw type="for" name="${val} IN [ sedan | convertible | compact | pickup ]">
+<doc></doc>
+<arguments>
+</arguments>
+<kw type="foritem" name="${val} = sedan">
+<doc></doc>
+<arguments>
+</arguments>
+<kw type="kw" name="BuiltIn.Log">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>I am driving a ${val}</arg>
+</arguments>
+<msg timestamp="20130815 13:04:14.251" level="INFO">I am driving a sedan</msg>
+<status status="PASS" endtime="20130815 13:04:14.252" starttime="20130815 13:04:14.251"></status>
+</kw>
+<status status="PASS" endtime="20130815 13:04:14.252" starttime="20130815 13:04:14.251"></status>
+</kw>
+<kw type="foritem" name="${val} = convertible">
+<doc></doc>
+<arguments>
+</arguments>
+<kw type="kw" name="BuiltIn.Log">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>I am driving a ${val}</arg>
+</arguments>
+<msg timestamp="20130815 13:04:14.252" level="INFO">I am driving a convertible</msg>
+<status status="PASS" endtime="20130815 13:04:14.253" starttime="20130815 13:04:14.252"></status>
+</kw>
+<status status="PASS" endtime="20130815 13:04:14.253" starttime="20130815 13:04:14.252"></status>
+</kw>
+<kw type="foritem" name="${val} = compact">
+<doc></doc>
+<arguments>
+</arguments>
+<kw type="kw" name="BuiltIn.Log">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>I am driving a ${val}</arg>
+</arguments>
+<msg timestamp="20130815 13:04:14.254" level="INFO">I am driving a compact</msg>
+<status status="PASS" endtime="20130815 13:04:14.254" starttime="20130815 13:04:14.253"></status>
+</kw>
+<status status="PASS" endtime="20130815 13:04:14.254" starttime="20130815 13:04:14.253"></status>
+</kw>
+<kw type="foritem" name="${val} = pickup">
+<doc></doc>
+<arguments>
+</arguments>
+<kw type="kw" name="BuiltIn.Log">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>I am driving a ${val}</arg>
+</arguments>
+<msg timestamp="20130815 13:04:14.255" level="INFO">I am driving a pickup</msg>
+<status status="PASS" endtime="20130815 13:04:14.255" starttime="20130815 13:04:14.254"></status>
+</kw>
+<status status="PASS" endtime="20130815 13:04:14.255" starttime="20130815 13:04:14.254"></status>
+</kw>
+<status status="PASS" endtime="20130815 13:04:14.255" starttime="20130815 13:04:14.251"></status>
+</kw>
+<doc></doc>
+<tags>
+</tags>
+<status status="PASS" endtime="20130815 13:04:14.256" critical="yes" starttime="20130815 13:04:14.250"></status>
+</test>
+<test id="s1-s2-t2" name="Process a list">
+<kw type="kw" name="BuiltIn.Log">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>Processing a list of animals</arg>
+</arguments>
+<msg timestamp="20130815 13:04:14.259" level="INFO">Processing a list of animals</msg>
+<status status="PASS" endtime="20130815 13:04:14.259" starttime="20130815 13:04:14.258"></status>
+</kw>
+<kw type="for" name="${animal} IN [ @animals ]">
+<doc></doc>
+<arguments>
+</arguments>
+<kw type="foritem" name="${animal} = @animals">
+<doc></doc>
+<arguments>
+</arguments>
+<kw type="kw" name="BuiltIn.Log">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>Animal selected: ${animal}</arg>
+</arguments>
+<msg timestamp="20130815 13:04:14.263" level="INFO">Animal selected: @animals</msg>
+<status status="PASS" endtime="20130815 13:04:14.263" starttime="20130815 13:04:14.263"></status>
+</kw>
+<status status="PASS" endtime="20130815 13:04:14.263" starttime="20130815 13:04:14.260"></status>
+</kw>
+<status status="PASS" endtime="20130815 13:04:14.263" starttime="20130815 13:04:14.259"></status>
+</kw>
+<doc></doc>
+<tags>
+</tags>
+<status status="PASS" endtime="20130815 13:04:14.264" critical="yes" starttime="20130815 13:04:14.257"></status>
+</test>
+<doc></doc>
+<metadata>
+</metadata>
+<status status="PASS" endtime="20130815 13:04:14.264" starttime="20130815 13:04:14.244"></status>
+</suite>
+<doc></doc>
+<metadata>
+</metadata>
+<status status="PASS" endtime="20130815 13:04:14.265" starttime="20130815 13:04:14.191"></status>
+</suite>
+<statistics>
+<total>
+<stat fail="0" pass="3">Critical Tests</stat>
+<stat fail="0" pass="3">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat fail="0" pass="3" id="s1" name="Testsuites">Testsuites</stat>
+<stat fail="0" pass="1" id="s1-s1" name="A simple textfile">Testsuites.A simple textfile</stat>
+<stat fail="0" pass="2" id="s1-s2" name="Basic Loop">Testsuites.Basic Loop</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
