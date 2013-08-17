@@ -1,0 +1,12 @@
+| *Test Cases* | *Action* | *Argument* |
+| Upto a value |
+| 			   | :FOR     | ${val} | IN RANGE | 10 |
+|			   |		  | LOG	   | loop executing with ${val} |
+
+| start and end values  |
+|			| :FOR  | ${val} | IN RANGE | 6 | 12 |
+|			|		| LOG	 | now running with ${val} |
+
+| loop with step of 3 per iteration |
+|			| :FOR  | ${val} | IN RANGE | 10 | 20 | 3 |
+|			|		| LOG	 | Running with ${val} and skipping 3 values |

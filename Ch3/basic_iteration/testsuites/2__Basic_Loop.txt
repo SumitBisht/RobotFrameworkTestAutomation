@@ -1,8 +1,10 @@
-| *Variables* |
-| @{animals} | cat  horse  turtle  bat  lion  monkey  dog  snake  fish  elephant |
+| *Variables* | 
+| @{animals} | cat | horse | turtle | bat | lion | monkey | dog | snake | fish | elephant |
+
 | *Test Cases* | *Action* | *Argument* |
 | Iterate over Arguments | :FOR | ${val} | IN  | sedan | convertible | compact | pickup
 | 								|		 | Log | I am driving a ${val} |
-| Process a list | LOG  | Processing a list of animals
-| 				 | :FOR  | ${animal} | IN | @animals |
+| Process a list | LOG  | Processing a list of animals |
+| 				 | :FOR | ${animal} | IN | @{animals} |
 |				 |		| Log 		| Animal selected: ${animal} |
+|				 | Log  | ended the iteration over a collection of values |
