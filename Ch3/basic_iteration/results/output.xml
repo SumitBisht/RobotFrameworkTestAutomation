@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generated="20130817 23:43:07.155" generator="Robot trunk 20130614 (Python 2.7.4 on linux2)">
+<robot generated="20130818 00:30:41.871" generator="Robot trunk 20130614 (Python 2.7.4 on linux2)">
 <suite source="/home/sumit/repo/RobotFrameworkTestAutomation/Ch3/basic_iteration/testsuites" id="s1" name="Testsuites">
 <suite source="/home/sumit/repo/RobotFrameworkTestAutomation/Ch3/basic_iteration/testsuites/1__A_simple_textfile.txt" id="s1-s1" name="A simple textfile">
 <test id="s1-s1-t1" name="Test a normal case">
@@ -8,18 +8,18 @@
 <arguments>
 <arg>Yay, IT works!</arg>
 </arguments>
-<msg timestamp="20130817 23:43:07.208" level="INFO">Yay, IT works!</msg>
-<status status="PASS" endtime="20130817 23:43:07.208" starttime="20130817 23:43:07.208"></status>
+<msg timestamp="20130818 00:30:41.921" level="INFO">Yay, IT works!</msg>
+<status status="PASS" endtime="20130818 00:30:41.921" starttime="20130818 00:30:41.921"></status>
 </kw>
 <doc></doc>
 <tags>
 </tags>
-<status status="PASS" endtime="20130817 23:43:07.209" critical="yes" starttime="20130817 23:43:07.207"></status>
+<status status="PASS" endtime="20130818 00:30:41.923" critical="yes" starttime="20130818 00:30:41.920"></status>
 </test>
 <doc></doc>
 <metadata>
 </metadata>
-<status status="PASS" endtime="20130817 23:43:07.209" starttime="20130817 23:43:07.204"></status>
+<status status="PASS" endtime="20130818 00:30:41.924" starttime="20130818 00:30:41.916"></status>
 </suite>
 <suite source="/home/sumit/repo/RobotFrameworkTestAutomation/Ch3/basic_iteration/testsuites/2__Basic_Loop.txt" id="s1-s2" name="Basic Loop">
 <test id="s1-s2-t1" name="Iterate over Arguments">
@@ -36,10 +36,10 @@
 <arguments>
 <arg>I am driving a ${val}</arg>
 </arguments>
-<msg timestamp="20130817 23:43:07.216" level="INFO">I am driving a sedan</msg>
-<status status="PASS" endtime="20130817 23:43:07.216" starttime="20130817 23:43:07.215"></status>
+<msg timestamp="20130818 00:30:41.933" level="INFO">I am driving a sedan</msg>
+<status status="PASS" endtime="20130818 00:30:41.934" starttime="20130818 00:30:41.933"></status>
 </kw>
-<status status="PASS" endtime="20130817 23:43:07.216" starttime="20130817 23:43:07.215"></status>
+<status status="PASS" endtime="20130818 00:30:41.934" starttime="20130818 00:30:41.933"></status>
 </kw>
 <kw type="foritem" name="${val} = convertible">
 <doc></doc>
@@ -50,10 +50,10 @@
 <arguments>
 <arg>I am driving a ${val}</arg>
 </arguments>
-<msg timestamp="20130817 23:43:07.216" level="INFO">I am driving a convertible</msg>
-<status status="PASS" endtime="20130817 23:43:07.216" starttime="20130817 23:43:07.216"></status>
+<msg timestamp="20130818 00:30:41.935" level="INFO">I am driving a convertible</msg>
+<status status="PASS" endtime="20130818 00:30:41.935" starttime="20130818 00:30:41.934"></status>
 </kw>
-<status status="PASS" endtime="20130817 23:43:07.217" starttime="20130817 23:43:07.216"></status>
+<status status="PASS" endtime="20130818 00:30:41.935" starttime="20130818 00:30:41.934"></status>
 </kw>
 <kw type="foritem" name="${val} = compact">
 <doc></doc>
@@ -64,10 +64,10 @@
 <arguments>
 <arg>I am driving a ${val}</arg>
 </arguments>
-<msg timestamp="20130817 23:43:07.217" level="INFO">I am driving a compact</msg>
-<status status="PASS" endtime="20130817 23:43:07.217" starttime="20130817 23:43:07.217"></status>
+<msg timestamp="20130818 00:30:41.936" level="INFO">I am driving a compact</msg>
+<status status="PASS" endtime="20130818 00:30:41.936" starttime="20130818 00:30:41.935"></status>
 </kw>
-<status status="PASS" endtime="20130817 23:43:07.217" starttime="20130817 23:43:07.217"></status>
+<status status="PASS" endtime="20130818 00:30:41.936" starttime="20130818 00:30:41.935"></status>
 </kw>
 <kw type="foritem" name="${val} = pickup">
 <doc></doc>
@@ -78,17 +78,17 @@
 <arguments>
 <arg>I am driving a ${val}</arg>
 </arguments>
-<msg timestamp="20130817 23:43:07.218" level="INFO">I am driving a pickup</msg>
-<status status="PASS" endtime="20130817 23:43:07.218" starttime="20130817 23:43:07.218"></status>
+<msg timestamp="20130818 00:30:41.937" level="INFO">I am driving a pickup</msg>
+<status status="PASS" endtime="20130818 00:30:41.937" starttime="20130818 00:30:41.936"></status>
 </kw>
-<status status="PASS" endtime="20130817 23:43:07.218" starttime="20130817 23:43:07.217"></status>
+<status status="PASS" endtime="20130818 00:30:41.937" starttime="20130818 00:30:41.936"></status>
 </kw>
-<status status="PASS" endtime="20130817 23:43:07.218" starttime="20130817 23:43:07.215"></status>
+<status status="PASS" endtime="20130818 00:30:41.937" starttime="20130818 00:30:41.932"></status>
 </kw>
 <doc></doc>
 <tags>
 </tags>
-<status status="PASS" endtime="20130817 23:43:07.219" critical="yes" starttime="20130817 23:43:07.214"></status>
+<status status="PASS" endtime="20130818 00:30:41.938" critical="yes" starttime="20130818 00:30:41.932"></status>
 </test>
 <test id="s1-s2-t2" name="Process a list">
 <kw type="kw" name="BuiltIn.Log">
@@ -96,8 +96,8 @@
 <arguments>
 <arg>Processing a list of animals</arg>
 </arguments>
-<msg timestamp="20130817 23:43:07.220" level="INFO">Processing a list of animals</msg>
-<status status="PASS" endtime="20130817 23:43:07.220" starttime="20130817 23:43:07.220"></status>
+<msg timestamp="20130818 00:30:41.940" level="INFO">Processing a list of animals</msg>
+<status status="PASS" endtime="20130818 00:30:41.940" starttime="20130818 00:30:41.940"></status>
 </kw>
 <kw type="for" name="${animal} IN [ @{animals} ]">
 <doc></doc>
@@ -112,10 +112,10 @@
 <arguments>
 <arg>Animal selected: ${animal}</arg>
 </arguments>
-<msg timestamp="20130817 23:43:07.221" level="INFO">Animal selected: cat</msg>
-<status status="PASS" endtime="20130817 23:43:07.222" starttime="20130817 23:43:07.221"></status>
+<msg timestamp="20130818 00:30:41.942" level="INFO">Animal selected: cat</msg>
+<status status="PASS" endtime="20130818 00:30:41.942" starttime="20130818 00:30:41.941"></status>
 </kw>
-<status status="PASS" endtime="20130817 23:43:07.222" starttime="20130817 23:43:07.221"></status>
+<status status="PASS" endtime="20130818 00:30:41.942" starttime="20130818 00:30:41.941"></status>
 </kw>
 <kw type="foritem" name="${animal} = horse">
 <doc></doc>
@@ -126,10 +126,10 @@
 <arguments>
 <arg>Animal selected: ${animal}</arg>
 </arguments>
-<msg timestamp="20130817 23:43:07.222" level="INFO">Animal selected: horse</msg>
-<status status="PASS" endtime="20130817 23:43:07.222" starttime="20130817 23:43:07.222"></status>
+<msg timestamp="20130818 00:30:41.942" level="INFO">Animal selected: horse</msg>
+<status status="PASS" endtime="20130818 00:30:41.942" starttime="20130818 00:30:41.942"></status>
 </kw>
-<status status="PASS" endtime="20130817 23:43:07.223" starttime="20130817 23:43:07.222"></status>
+<status status="PASS" endtime="20130818 00:30:41.943" starttime="20130818 00:30:41.942"></status>
 </kw>
 <kw type="foritem" name="${animal} = turtle">
 <doc></doc>
@@ -140,10 +140,10 @@
 <arguments>
 <arg>Animal selected: ${animal}</arg>
 </arguments>
-<msg timestamp="20130817 23:43:07.223" level="INFO">Animal selected: turtle</msg>
-<status status="PASS" endtime="20130817 23:43:07.223" starttime="20130817 23:43:07.223"></status>
+<msg timestamp="20130818 00:30:41.943" level="INFO">Animal selected: turtle</msg>
+<status status="PASS" endtime="20130818 00:30:41.943" starttime="20130818 00:30:41.943"></status>
 </kw>
-<status status="PASS" endtime="20130817 23:43:07.224" starttime="20130817 23:43:07.223"></status>
+<status status="PASS" endtime="20130818 00:30:41.943" starttime="20130818 00:30:41.943"></status>
 </kw>
 <kw type="foritem" name="${animal} = bat">
 <doc></doc>
@@ -154,10 +154,10 @@
 <arguments>
 <arg>Animal selected: ${animal}</arg>
 </arguments>
-<msg timestamp="20130817 23:43:07.224" level="INFO">Animal selected: bat</msg>
-<status status="PASS" endtime="20130817 23:43:07.224" starttime="20130817 23:43:07.224"></status>
+<msg timestamp="20130818 00:30:41.944" level="INFO">Animal selected: bat</msg>
+<status status="PASS" endtime="20130818 00:30:41.944" starttime="20130818 00:30:41.944"></status>
 </kw>
-<status status="PASS" endtime="20130817 23:43:07.224" starttime="20130817 23:43:07.224"></status>
+<status status="PASS" endtime="20130818 00:30:41.944" starttime="20130818 00:30:41.943"></status>
 </kw>
 <kw type="foritem" name="${animal} = lion">
 <doc></doc>
@@ -168,10 +168,10 @@
 <arguments>
 <arg>Animal selected: ${animal}</arg>
 </arguments>
-<msg timestamp="20130817 23:43:07.225" level="INFO">Animal selected: lion</msg>
-<status status="PASS" endtime="20130817 23:43:07.225" starttime="20130817 23:43:07.225"></status>
+<msg timestamp="20130818 00:30:41.945" level="INFO">Animal selected: lion</msg>
+<status status="PASS" endtime="20130818 00:30:41.945" starttime="20130818 00:30:41.944"></status>
 </kw>
-<status status="PASS" endtime="20130817 23:43:07.225" starttime="20130817 23:43:07.224"></status>
+<status status="PASS" endtime="20130818 00:30:41.945" starttime="20130818 00:30:41.944"></status>
 </kw>
 <kw type="foritem" name="${animal} = monkey">
 <doc></doc>
@@ -182,10 +182,10 @@
 <arguments>
 <arg>Animal selected: ${animal}</arg>
 </arguments>
-<msg timestamp="20130817 23:43:07.226" level="INFO">Animal selected: monkey</msg>
-<status status="PASS" endtime="20130817 23:43:07.226" starttime="20130817 23:43:07.225"></status>
+<msg timestamp="20130818 00:30:41.945" level="INFO">Animal selected: monkey</msg>
+<status status="PASS" endtime="20130818 00:30:41.945" starttime="20130818 00:30:41.945"></status>
 </kw>
-<status status="PASS" endtime="20130817 23:43:07.226" starttime="20130817 23:43:07.225"></status>
+<status status="PASS" endtime="20130818 00:30:41.945" starttime="20130818 00:30:41.945"></status>
 </kw>
 <kw type="foritem" name="${animal} = dog">
 <doc></doc>
@@ -196,10 +196,10 @@
 <arguments>
 <arg>Animal selected: ${animal}</arg>
 </arguments>
-<msg timestamp="20130817 23:43:07.227" level="INFO">Animal selected: dog</msg>
-<status status="PASS" endtime="20130817 23:43:07.227" starttime="20130817 23:43:07.226"></status>
+<msg timestamp="20130818 00:30:41.946" level="INFO">Animal selected: dog</msg>
+<status status="PASS" endtime="20130818 00:30:41.946" starttime="20130818 00:30:41.946"></status>
 </kw>
-<status status="PASS" endtime="20130817 23:43:07.227" starttime="20130817 23:43:07.226"></status>
+<status status="PASS" endtime="20130818 00:30:41.946" starttime="20130818 00:30:41.946"></status>
 </kw>
 <kw type="foritem" name="${animal} = snake">
 <doc></doc>
@@ -210,10 +210,10 @@
 <arguments>
 <arg>Animal selected: ${animal}</arg>
 </arguments>
-<msg timestamp="20130817 23:43:07.228" level="INFO">Animal selected: snake</msg>
-<status status="PASS" endtime="20130817 23:43:07.228" starttime="20130817 23:43:07.227"></status>
+<msg timestamp="20130818 00:30:41.947" level="INFO">Animal selected: snake</msg>
+<status status="PASS" endtime="20130818 00:30:41.947" starttime="20130818 00:30:41.946"></status>
 </kw>
-<status status="PASS" endtime="20130817 23:43:07.228" starttime="20130817 23:43:07.227"></status>
+<status status="PASS" endtime="20130818 00:30:41.947" starttime="20130818 00:30:41.946"></status>
 </kw>
 <kw type="foritem" name="${animal} = fish">
 <doc></doc>
@@ -224,10 +224,10 @@
 <arguments>
 <arg>Animal selected: ${animal}</arg>
 </arguments>
-<msg timestamp="20130817 23:43:07.229" level="INFO">Animal selected: fish</msg>
-<status status="PASS" endtime="20130817 23:43:07.229" starttime="20130817 23:43:07.229"></status>
+<msg timestamp="20130818 00:30:41.948" level="INFO">Animal selected: fish</msg>
+<status status="PASS" endtime="20130818 00:30:41.948" starttime="20130818 00:30:41.947"></status>
 </kw>
-<status status="PASS" endtime="20130817 23:43:07.229" starttime="20130817 23:43:07.228"></status>
+<status status="PASS" endtime="20130818 00:30:41.948" starttime="20130818 00:30:41.947"></status>
 </kw>
 <kw type="foritem" name="${animal} = elephant">
 <doc></doc>
@@ -238,30 +238,30 @@
 <arguments>
 <arg>Animal selected: ${animal}</arg>
 </arguments>
-<msg timestamp="20130817 23:43:07.230" level="INFO">Animal selected: elephant</msg>
-<status status="PASS" endtime="20130817 23:43:07.230" starttime="20130817 23:43:07.230"></status>
+<msg timestamp="20130818 00:30:41.948" level="INFO">Animal selected: elephant</msg>
+<status status="PASS" endtime="20130818 00:30:41.948" starttime="20130818 00:30:41.948"></status>
 </kw>
-<status status="PASS" endtime="20130817 23:43:07.230" starttime="20130817 23:43:07.229"></status>
+<status status="PASS" endtime="20130818 00:30:41.949" starttime="20130818 00:30:41.948"></status>
 </kw>
-<status status="PASS" endtime="20130817 23:43:07.230" starttime="20130817 23:43:07.220"></status>
+<status status="PASS" endtime="20130818 00:30:41.949" starttime="20130818 00:30:41.941"></status>
 </kw>
 <kw type="kw" name="BuiltIn.Log">
 <doc>Logs the given message with the given level.</doc>
 <arguments>
 <arg>ended the iteration over a collection of values</arg>
 </arguments>
-<msg timestamp="20130817 23:43:07.231" level="INFO">ended the iteration over a collection of values</msg>
-<status status="PASS" endtime="20130817 23:43:07.231" starttime="20130817 23:43:07.231"></status>
+<msg timestamp="20130818 00:30:41.949" level="INFO">ended the iteration over a collection of values</msg>
+<status status="PASS" endtime="20130818 00:30:41.949" starttime="20130818 00:30:41.949"></status>
 </kw>
 <doc></doc>
 <tags>
 </tags>
-<status status="PASS" endtime="20130817 23:43:07.232" critical="yes" starttime="20130817 23:43:07.219"></status>
+<status status="PASS" endtime="20130818 00:30:41.949" critical="yes" starttime="20130818 00:30:41.938"></status>
 </test>
 <doc></doc>
 <metadata>
 </metadata>
-<status status="PASS" endtime="20130817 23:43:07.232" starttime="20130817 23:43:07.210"></status>
+<status status="PASS" endtime="20130818 00:30:41.950" starttime="20130818 00:30:41.927"></status>
 </suite>
 <suite source="/home/sumit/repo/RobotFrameworkTestAutomation/Ch3/basic_iteration/testsuites/3__Ranges.txt" id="s1-s3" name="Ranges">
 <test id="s1-s3-t1" name="Upto a value">
@@ -278,10 +278,10 @@
 <arguments>
 <arg>loop executing with ${val}</arg>
 </arguments>
-<msg timestamp="20130817 23:43:07.240" level="INFO">loop executing with 0</msg>
-<status status="PASS" endtime="20130817 23:43:07.240" starttime="20130817 23:43:07.240"></status>
+<msg timestamp="20130818 00:30:41.955" level="INFO">loop executing with 0</msg>
+<status status="PASS" endtime="20130818 00:30:41.955" starttime="20130818 00:30:41.955"></status>
 </kw>
-<status status="PASS" endtime="20130817 23:43:07.241" starttime="20130817 23:43:07.240"></status>
+<status status="PASS" endtime="20130818 00:30:41.955" starttime="20130818 00:30:41.955"></status>
 </kw>
 <kw type="foritem" name="${val} = 1">
 <doc></doc>
@@ -292,10 +292,10 @@
 <arguments>
 <arg>loop executing with ${val}</arg>
 </arguments>
-<msg timestamp="20130817 23:43:07.241" level="INFO">loop executing with 1</msg>
-<status status="PASS" endtime="20130817 23:43:07.241" starttime="20130817 23:43:07.241"></status>
+<msg timestamp="20130818 00:30:41.956" level="INFO">loop executing with 1</msg>
+<status status="PASS" endtime="20130818 00:30:41.956" starttime="20130818 00:30:41.956"></status>
 </kw>
-<status status="PASS" endtime="20130817 23:43:07.241" starttime="20130817 23:43:07.241"></status>
+<status status="PASS" endtime="20130818 00:30:41.956" starttime="20130818 00:30:41.955"></status>
 </kw>
 <kw type="foritem" name="${val} = 2">
 <doc></doc>
@@ -306,10 +306,10 @@
 <arguments>
 <arg>loop executing with ${val}</arg>
 </arguments>
-<msg timestamp="20130817 23:43:07.242" level="INFO">loop executing with 2</msg>
-<status status="PASS" endtime="20130817 23:43:07.242" starttime="20130817 23:43:07.242"></status>
+<msg timestamp="20130818 00:30:41.957" level="INFO">loop executing with 2</msg>
+<status status="PASS" endtime="20130818 00:30:41.957" starttime="20130818 00:30:41.956"></status>
 </kw>
-<status status="PASS" endtime="20130817 23:43:07.242" starttime="20130817 23:43:07.241"></status>
+<status status="PASS" endtime="20130818 00:30:41.957" starttime="20130818 00:30:41.956"></status>
 </kw>
 <kw type="foritem" name="${val} = 3">
 <doc></doc>
@@ -320,10 +320,10 @@
 <arguments>
 <arg>loop executing with ${val}</arg>
 </arguments>
-<msg timestamp="20130817 23:43:07.243" level="INFO">loop executing with 3</msg>
-<status status="PASS" endtime="20130817 23:43:07.243" starttime="20130817 23:43:07.242"></status>
+<msg timestamp="20130818 00:30:41.957" level="INFO">loop executing with 3</msg>
+<status status="PASS" endtime="20130818 00:30:41.958" starttime="20130818 00:30:41.957"></status>
 </kw>
-<status status="PASS" endtime="20130817 23:43:07.243" starttime="20130817 23:43:07.242"></status>
+<status status="PASS" endtime="20130818 00:30:41.958" starttime="20130818 00:30:41.957"></status>
 </kw>
 <kw type="foritem" name="${val} = 4">
 <doc></doc>
@@ -334,10 +334,10 @@
 <arguments>
 <arg>loop executing with ${val}</arg>
 </arguments>
-<msg timestamp="20130817 23:43:07.244" level="INFO">loop executing with 4</msg>
-<status status="PASS" endtime="20130817 23:43:07.244" starttime="20130817 23:43:07.244"></status>
+<msg timestamp="20130818 00:30:41.959" level="INFO">loop executing with 4</msg>
+<status status="PASS" endtime="20130818 00:30:41.959" starttime="20130818 00:30:41.958"></status>
 </kw>
-<status status="PASS" endtime="20130817 23:43:07.244" starttime="20130817 23:43:07.243"></status>
+<status status="PASS" endtime="20130818 00:30:41.959" starttime="20130818 00:30:41.958"></status>
 </kw>
 <kw type="foritem" name="${val} = 5">
 <doc></doc>
@@ -348,10 +348,10 @@
 <arguments>
 <arg>loop executing with ${val}</arg>
 </arguments>
-<msg timestamp="20130817 23:43:07.245" level="INFO">loop executing with 5</msg>
-<status status="PASS" endtime="20130817 23:43:07.245" starttime="20130817 23:43:07.245"></status>
+<msg timestamp="20130818 00:30:41.959" level="INFO">loop executing with 5</msg>
+<status status="PASS" endtime="20130818 00:30:41.959" starttime="20130818 00:30:41.959"></status>
 </kw>
-<status status="PASS" endtime="20130817 23:43:07.245" starttime="20130817 23:43:07.244"></status>
+<status status="PASS" endtime="20130818 00:30:41.960" starttime="20130818 00:30:41.959"></status>
 </kw>
 <kw type="foritem" name="${val} = 6">
 <doc></doc>
@@ -362,10 +362,10 @@
 <arguments>
 <arg>loop executing with ${val}</arg>
 </arguments>
-<msg timestamp="20130817 23:43:07.246" level="INFO">loop executing with 6</msg>
-<status status="PASS" endtime="20130817 23:43:07.246" starttime="20130817 23:43:07.245"></status>
+<msg timestamp="20130818 00:30:41.960" level="INFO">loop executing with 6</msg>
+<status status="PASS" endtime="20130818 00:30:41.960" starttime="20130818 00:30:41.960"></status>
 </kw>
-<status status="PASS" endtime="20130817 23:43:07.246" starttime="20130817 23:43:07.245"></status>
+<status status="PASS" endtime="20130818 00:30:41.960" starttime="20130818 00:30:41.960"></status>
 </kw>
 <kw type="foritem" name="${val} = 7">
 <doc></doc>
@@ -376,10 +376,10 @@
 <arguments>
 <arg>loop executing with ${val}</arg>
 </arguments>
-<msg timestamp="20130817 23:43:07.246" level="INFO">loop executing with 7</msg>
-<status status="PASS" endtime="20130817 23:43:07.247" starttime="20130817 23:43:07.246"></status>
+<msg timestamp="20130818 00:30:41.961" level="INFO">loop executing with 7</msg>
+<status status="PASS" endtime="20130818 00:30:41.961" starttime="20130818 00:30:41.961"></status>
 </kw>
-<status status="PASS" endtime="20130817 23:43:07.247" starttime="20130817 23:43:07.246"></status>
+<status status="PASS" endtime="20130818 00:30:41.961" starttime="20130818 00:30:41.961"></status>
 </kw>
 <kw type="foritem" name="${val} = 8">
 <doc></doc>
@@ -390,10 +390,10 @@
 <arguments>
 <arg>loop executing with ${val}</arg>
 </arguments>
-<msg timestamp="20130817 23:43:07.247" level="INFO">loop executing with 8</msg>
-<status status="PASS" endtime="20130817 23:43:07.247" starttime="20130817 23:43:07.247"></status>
+<msg timestamp="20130818 00:30:41.962" level="INFO">loop executing with 8</msg>
+<status status="PASS" endtime="20130818 00:30:41.962" starttime="20130818 00:30:41.962"></status>
 </kw>
-<status status="PASS" endtime="20130817 23:43:07.247" starttime="20130817 23:43:07.247"></status>
+<status status="PASS" endtime="20130818 00:30:41.962" starttime="20130818 00:30:41.961"></status>
 </kw>
 <kw type="foritem" name="${val} = 9">
 <doc></doc>
@@ -404,17 +404,17 @@
 <arguments>
 <arg>loop executing with ${val}</arg>
 </arguments>
-<msg timestamp="20130817 23:43:07.248" level="INFO">loop executing with 9</msg>
-<status status="PASS" endtime="20130817 23:43:07.248" starttime="20130817 23:43:07.248"></status>
+<msg timestamp="20130818 00:30:41.963" level="INFO">loop executing with 9</msg>
+<status status="PASS" endtime="20130818 00:30:41.963" starttime="20130818 00:30:41.962"></status>
 </kw>
-<status status="PASS" endtime="20130817 23:43:07.248" starttime="20130817 23:43:07.248"></status>
+<status status="PASS" endtime="20130818 00:30:41.963" starttime="20130818 00:30:41.962"></status>
 </kw>
-<status status="PASS" endtime="20130817 23:43:07.248" starttime="20130817 23:43:07.240"></status>
+<status status="PASS" endtime="20130818 00:30:41.963" starttime="20130818 00:30:41.955"></status>
 </kw>
 <doc></doc>
 <tags>
 </tags>
-<status status="PASS" endtime="20130817 23:43:07.249" critical="yes" starttime="20130817 23:43:07.239"></status>
+<status status="PASS" endtime="20130818 00:30:41.963" critical="yes" starttime="20130818 00:30:41.954"></status>
 </test>
 <test id="s1-s3-t2" name="start and end values">
 <kw type="for" name="${val} IN RANGE [ 6 | 12 ]">
@@ -430,10 +430,10 @@
 <arguments>
 <arg>now running with ${val}</arg>
 </arguments>
-<msg timestamp="20130817 23:43:07.250" level="INFO">now running with 6</msg>
-<status status="PASS" endtime="20130817 23:43:07.251" starttime="20130817 23:43:07.250"></status>
+<msg timestamp="20130818 00:30:41.965" level="INFO">now running with 6</msg>
+<status status="PASS" endtime="20130818 00:30:41.965" starttime="20130818 00:30:41.965"></status>
 </kw>
-<status status="PASS" endtime="20130817 23:43:07.251" starttime="20130817 23:43:07.250"></status>
+<status status="PASS" endtime="20130818 00:30:41.966" starttime="20130818 00:30:41.965"></status>
 </kw>
 <kw type="foritem" name="${val} = 7">
 <doc></doc>
@@ -444,10 +444,10 @@
 <arguments>
 <arg>now running with ${val}</arg>
 </arguments>
-<msg timestamp="20130817 23:43:07.252" level="INFO">now running with 7</msg>
-<status status="PASS" endtime="20130817 23:43:07.252" starttime="20130817 23:43:07.251"></status>
+<msg timestamp="20130818 00:30:41.966" level="INFO">now running with 7</msg>
+<status status="PASS" endtime="20130818 00:30:41.966" starttime="20130818 00:30:41.966"></status>
 </kw>
-<status status="PASS" endtime="20130817 23:43:07.252" starttime="20130817 23:43:07.251"></status>
+<status status="PASS" endtime="20130818 00:30:41.966" starttime="20130818 00:30:41.966"></status>
 </kw>
 <kw type="foritem" name="${val} = 8">
 <doc></doc>
@@ -458,10 +458,10 @@
 <arguments>
 <arg>now running with ${val}</arg>
 </arguments>
-<msg timestamp="20130817 23:43:07.252" level="INFO">now running with 8</msg>
-<status status="PASS" endtime="20130817 23:43:07.252" starttime="20130817 23:43:07.252"></status>
+<msg timestamp="20130818 00:30:41.967" level="INFO">now running with 8</msg>
+<status status="PASS" endtime="20130818 00:30:41.967" starttime="20130818 00:30:41.967"></status>
 </kw>
-<status status="PASS" endtime="20130817 23:43:07.253" starttime="20130817 23:43:07.252"></status>
+<status status="PASS" endtime="20130818 00:30:41.967" starttime="20130818 00:30:41.967"></status>
 </kw>
 <kw type="foritem" name="${val} = 9">
 <doc></doc>
@@ -472,10 +472,10 @@
 <arguments>
 <arg>now running with ${val}</arg>
 </arguments>
-<msg timestamp="20130817 23:43:07.253" level="INFO">now running with 9</msg>
-<status status="PASS" endtime="20130817 23:43:07.253" starttime="20130817 23:43:07.253"></status>
+<msg timestamp="20130818 00:30:41.968" level="INFO">now running with 9</msg>
+<status status="PASS" endtime="20130818 00:30:41.968" starttime="20130818 00:30:41.968"></status>
 </kw>
-<status status="PASS" endtime="20130817 23:43:07.253" starttime="20130817 23:43:07.253"></status>
+<status status="PASS" endtime="20130818 00:30:41.968" starttime="20130818 00:30:41.967"></status>
 </kw>
 <kw type="foritem" name="${val} = 10">
 <doc></doc>
@@ -486,10 +486,10 @@
 <arguments>
 <arg>now running with ${val}</arg>
 </arguments>
-<msg timestamp="20130817 23:43:07.254" level="INFO">now running with 10</msg>
-<status status="PASS" endtime="20130817 23:43:07.254" starttime="20130817 23:43:07.254"></status>
+<msg timestamp="20130818 00:30:41.969" level="INFO">now running with 10</msg>
+<status status="PASS" endtime="20130818 00:30:41.969" starttime="20130818 00:30:41.968"></status>
 </kw>
-<status status="PASS" endtime="20130817 23:43:07.254" starttime="20130817 23:43:07.253"></status>
+<status status="PASS" endtime="20130818 00:30:41.969" starttime="20130818 00:30:41.968"></status>
 </kw>
 <kw type="foritem" name="${val} = 11">
 <doc></doc>
@@ -500,17 +500,17 @@
 <arguments>
 <arg>now running with ${val}</arg>
 </arguments>
-<msg timestamp="20130817 23:43:07.255" level="INFO">now running with 11</msg>
-<status status="PASS" endtime="20130817 23:43:07.255" starttime="20130817 23:43:07.254"></status>
+<msg timestamp="20130818 00:30:41.969" level="INFO">now running with 11</msg>
+<status status="PASS" endtime="20130818 00:30:41.970" starttime="20130818 00:30:41.969"></status>
 </kw>
-<status status="PASS" endtime="20130817 23:43:07.255" starttime="20130817 23:43:07.254"></status>
+<status status="PASS" endtime="20130818 00:30:41.970" starttime="20130818 00:30:41.969"></status>
 </kw>
-<status status="PASS" endtime="20130817 23:43:07.255" starttime="20130817 23:43:07.250"></status>
+<status status="PASS" endtime="20130818 00:30:41.970" starttime="20130818 00:30:41.964"></status>
 </kw>
 <doc></doc>
 <tags>
 </tags>
-<status status="PASS" endtime="20130817 23:43:07.255" critical="yes" starttime="20130817 23:43:07.249"></status>
+<status status="PASS" endtime="20130818 00:30:41.970" critical="yes" starttime="20130818 00:30:41.964"></status>
 </test>
 <test id="s1-s3-t3" name="loop with step of 3 per iteration">
 <kw type="for" name="${val} IN RANGE [ 10 | 20 | 3 ]">
@@ -526,10 +526,10 @@
 <arguments>
 <arg>Running with ${val} and skipping 3 values</arg>
 </arguments>
-<msg timestamp="20130817 23:43:07.259" level="INFO">Running with 10 and skipping 3 values</msg>
-<status status="PASS" endtime="20130817 23:43:07.259" starttime="20130817 23:43:07.258"></status>
+<msg timestamp="20130818 00:30:41.974" level="INFO">Running with 10 and skipping 3 values</msg>
+<status status="PASS" endtime="20130818 00:30:41.974" starttime="20130818 00:30:41.973"></status>
 </kw>
-<status status="PASS" endtime="20130817 23:43:07.259" starttime="20130817 23:43:07.258"></status>
+<status status="PASS" endtime="20130818 00:30:41.974" starttime="20130818 00:30:41.973"></status>
 </kw>
 <kw type="foritem" name="${val} = 13">
 <doc></doc>
@@ -540,10 +540,10 @@
 <arguments>
 <arg>Running with ${val} and skipping 3 values</arg>
 </arguments>
-<msg timestamp="20130817 23:43:07.260" level="INFO">Running with 13 and skipping 3 values</msg>
-<status status="PASS" endtime="20130817 23:43:07.260" starttime="20130817 23:43:07.259"></status>
+<msg timestamp="20130818 00:30:41.975" level="INFO">Running with 13 and skipping 3 values</msg>
+<status status="PASS" endtime="20130818 00:30:41.975" starttime="20130818 00:30:41.975"></status>
 </kw>
-<status status="PASS" endtime="20130817 23:43:07.260" starttime="20130817 23:43:07.259"></status>
+<status status="PASS" endtime="20130818 00:30:41.975" starttime="20130818 00:30:41.974"></status>
 </kw>
 <kw type="foritem" name="${val} = 16">
 <doc></doc>
@@ -554,10 +554,10 @@
 <arguments>
 <arg>Running with ${val} and skipping 3 values</arg>
 </arguments>
-<msg timestamp="20130817 23:43:07.261" level="INFO">Running with 16 and skipping 3 values</msg>
-<status status="PASS" endtime="20130817 23:43:07.261" starttime="20130817 23:43:07.260"></status>
+<msg timestamp="20130818 00:30:41.977" level="INFO">Running with 16 and skipping 3 values</msg>
+<status status="PASS" endtime="20130818 00:30:41.977" starttime="20130818 00:30:41.976"></status>
 </kw>
-<status status="PASS" endtime="20130817 23:43:07.261" starttime="20130817 23:43:07.260"></status>
+<status status="PASS" endtime="20130818 00:30:41.977" starttime="20130818 00:30:41.976"></status>
 </kw>
 <kw type="foritem" name="${val} = 19">
 <doc></doc>
@@ -568,40 +568,646 @@
 <arguments>
 <arg>Running with ${val} and skipping 3 values</arg>
 </arguments>
-<msg timestamp="20130817 23:43:07.262" level="INFO">Running with 19 and skipping 3 values</msg>
-<status status="PASS" endtime="20130817 23:43:07.262" starttime="20130817 23:43:07.261"></status>
+<msg timestamp="20130818 00:30:41.977" level="INFO">Running with 19 and skipping 3 values</msg>
+<status status="PASS" endtime="20130818 00:30:41.977" starttime="20130818 00:30:41.977"></status>
 </kw>
-<status status="PASS" endtime="20130817 23:43:07.262" starttime="20130817 23:43:07.261"></status>
+<status status="PASS" endtime="20130818 00:30:41.978" starttime="20130818 00:30:41.977"></status>
 </kw>
-<status status="PASS" endtime="20130817 23:43:07.262" starttime="20130817 23:43:07.258"></status>
+<status status="PASS" endtime="20130818 00:30:41.978" starttime="20130818 00:30:41.973"></status>
 </kw>
 <doc></doc>
 <tags>
 </tags>
-<status status="PASS" endtime="20130817 23:43:07.263" critical="yes" starttime="20130817 23:43:07.256"></status>
+<status status="PASS" endtime="20130818 00:30:41.978" critical="yes" starttime="20130818 00:30:41.971"></status>
 </test>
 <doc></doc>
 <metadata>
 </metadata>
-<status status="PASS" endtime="20130817 23:43:07.263" starttime="20130817 23:43:07.233"></status>
+<status status="PASS" endtime="20130818 00:30:41.979" starttime="20130818 00:30:41.951"></status>
+</suite>
+<suite source="/home/sumit/repo/RobotFrameworkTestAutomation/Ch3/basic_iteration/testsuites/4__Continue_Or_Break.txt" id="s1-s4" name="Continue Or Break">
+<test id="s1-s4-t1" name="break loop after going past 10">
+<kw type="for" name="${val} IN RANGE [ 8 | 15 ]">
+<doc></doc>
+<arguments>
+</arguments>
+<kw type="foritem" name="${val} = 8">
+<doc></doc>
+<arguments>
+</arguments>
+<kw type="kw" name="BuiltIn.Run Keyword If">
+<doc>Runs the given keyword with the given arguments, if `condition` is true.</doc>
+<arguments>
+<arg>${val} &gt; 10</arg>
+<arg>Exit For Loop</arg>
+</arguments>
+<status status="PASS" endtime="20130818 00:30:41.986" starttime="20130818 00:30:41.985"></status>
+</kw>
+<kw type="kw" name="BuiltIn.Log">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>Proceeding with ${val}</arg>
+</arguments>
+<msg timestamp="20130818 00:30:41.987" level="INFO">Proceeding with 8</msg>
+<status status="PASS" endtime="20130818 00:30:41.987" starttime="20130818 00:30:41.986"></status>
+</kw>
+<status status="PASS" endtime="20130818 00:30:41.987" starttime="20130818 00:30:41.985"></status>
+</kw>
+<kw type="foritem" name="${val} = 9">
+<doc></doc>
+<arguments>
+</arguments>
+<kw type="kw" name="BuiltIn.Run Keyword If">
+<doc>Runs the given keyword with the given arguments, if `condition` is true.</doc>
+<arguments>
+<arg>${val} &gt; 10</arg>
+<arg>Exit For Loop</arg>
+</arguments>
+<status status="PASS" endtime="20130818 00:30:41.988" starttime="20130818 00:30:41.987"></status>
+</kw>
+<kw type="kw" name="BuiltIn.Log">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>Proceeding with ${val}</arg>
+</arguments>
+<msg timestamp="20130818 00:30:41.989" level="INFO">Proceeding with 9</msg>
+<status status="PASS" endtime="20130818 00:30:41.989" starttime="20130818 00:30:41.988"></status>
+</kw>
+<status status="PASS" endtime="20130818 00:30:41.989" starttime="20130818 00:30:41.987"></status>
+</kw>
+<kw type="foritem" name="${val} = 10">
+<doc></doc>
+<arguments>
+</arguments>
+<kw type="kw" name="BuiltIn.Run Keyword If">
+<doc>Runs the given keyword with the given arguments, if `condition` is true.</doc>
+<arguments>
+<arg>${val} &gt; 10</arg>
+<arg>Exit For Loop</arg>
+</arguments>
+<status status="PASS" endtime="20130818 00:30:41.990" starttime="20130818 00:30:41.990"></status>
+</kw>
+<kw type="kw" name="BuiltIn.Log">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>Proceeding with ${val}</arg>
+</arguments>
+<msg timestamp="20130818 00:30:41.991" level="INFO">Proceeding with 10</msg>
+<status status="PASS" endtime="20130818 00:30:41.992" starttime="20130818 00:30:41.991"></status>
+</kw>
+<status status="PASS" endtime="20130818 00:30:41.992" starttime="20130818 00:30:41.989"></status>
+</kw>
+<kw type="foritem" name="${val} = 11">
+<doc></doc>
+<arguments>
+</arguments>
+<kw type="kw" name="BuiltIn.Run Keyword If">
+<doc>Runs the given keyword with the given arguments, if `condition` is true.</doc>
+<arguments>
+<arg>${val} &gt; 10</arg>
+<arg>Exit For Loop</arg>
+</arguments>
+<kw type="kw" name="BuiltIn.Exit For Loop">
+<doc>Stops executing the enclosing for loop.</doc>
+<arguments>
+</arguments>
+<msg timestamp="20130818 00:30:41.994" level="INFO">Exiting for loop altogether.</msg>
+<status status="PASS" endtime="20130818 00:30:41.994" starttime="20130818 00:30:41.994"></status>
+</kw>
+<status status="PASS" endtime="20130818 00:30:41.994" starttime="20130818 00:30:41.993"></status>
+</kw>
+<status status="PASS" endtime="20130818 00:30:41.994" starttime="20130818 00:30:41.992"></status>
+</kw>
+<status status="PASS" endtime="20130818 00:30:41.995" starttime="20130818 00:30:41.985"></status>
+</kw>
+<kw type="kw" name="BuiltIn.Log">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>Continuing further with the test now that the loop has exited</arg>
+</arguments>
+<msg timestamp="20130818 00:30:41.995" level="INFO">Continuing further with the test now that the loop has exited</msg>
+<status status="PASS" endtime="20130818 00:30:41.995" starttime="20130818 00:30:41.995"></status>
+</kw>
+<doc></doc>
+<tags>
+</tags>
+<status status="PASS" endtime="20130818 00:30:41.996" critical="yes" starttime="20130818 00:30:41.984"></status>
+</test>
+<test id="s1-s4-t2" name="another way to break">
+<kw type="for" name="${var} IN RANGE [ 0 | 10 ]">
+<doc></doc>
+<arguments>
+</arguments>
+<kw type="foritem" name="${var} = 0">
+<doc></doc>
+<arguments>
+</arguments>
+<kw type="kw" name="BuiltIn.Exit For Loop If">
+<doc>Stops executing the enclosing for loop if the `condition` is true.</doc>
+<arguments>
+<arg>${var} == 2</arg>
+</arguments>
+<status status="PASS" endtime="20130818 00:30:41.998" starttime="20130818 00:30:41.998"></status>
+</kw>
+<kw type="kw" name="BuiltIn.Log">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>Running loop with ${var}</arg>
+</arguments>
+<msg timestamp="20130818 00:30:41.998" level="INFO">Running loop with 0</msg>
+<status status="PASS" endtime="20130818 00:30:41.999" starttime="20130818 00:30:41.998"></status>
+</kw>
+<status status="PASS" endtime="20130818 00:30:41.999" starttime="20130818 00:30:41.997"></status>
+</kw>
+<kw type="foritem" name="${var} = 1">
+<doc></doc>
+<arguments>
+</arguments>
+<kw type="kw" name="BuiltIn.Exit For Loop If">
+<doc>Stops executing the enclosing for loop if the `condition` is true.</doc>
+<arguments>
+<arg>${var} == 2</arg>
+</arguments>
+<status status="PASS" endtime="20130818 00:30:41.999" starttime="20130818 00:30:41.999"></status>
+</kw>
+<kw type="kw" name="BuiltIn.Log">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>Running loop with ${var}</arg>
+</arguments>
+<msg timestamp="20130818 00:30:42.000" level="INFO">Running loop with 1</msg>
+<status status="PASS" endtime="20130818 00:30:42.000" starttime="20130818 00:30:41.999"></status>
+</kw>
+<status status="PASS" endtime="20130818 00:30:42.000" starttime="20130818 00:30:41.999"></status>
+</kw>
+<kw type="foritem" name="${var} = 2">
+<doc></doc>
+<arguments>
+</arguments>
+<kw type="kw" name="BuiltIn.Exit For Loop If">
+<doc>Stops executing the enclosing for loop if the `condition` is true.</doc>
+<arguments>
+<arg>${var} == 2</arg>
+</arguments>
+<msg timestamp="20130818 00:30:42.001" level="INFO">Exiting for loop altogether.</msg>
+<status status="PASS" endtime="20130818 00:30:42.001" starttime="20130818 00:30:42.000"></status>
+</kw>
+<status status="PASS" endtime="20130818 00:30:42.001" starttime="20130818 00:30:42.000"></status>
+</kw>
+<status status="PASS" endtime="20130818 00:30:42.001" starttime="20130818 00:30:41.997"></status>
+</kw>
+<kw type="kw" name="BuiltIn.Log">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>Outside the for loop contents</arg>
+</arguments>
+<msg timestamp="20130818 00:30:42.002" level="INFO">Outside the for loop contents</msg>
+<status status="PASS" endtime="20130818 00:30:42.002" starttime="20130818 00:30:42.002"></status>
+</kw>
+<doc></doc>
+<tags>
+</tags>
+<status status="PASS" endtime="20130818 00:30:42.002" critical="yes" starttime="20130818 00:30:41.996"></status>
+</test>
+<test id="s1-s4-t3" name="do not process even numbers">
+<kw type="for" name="${val} IN RANGE [ 0 | 10 ]">
+<doc></doc>
+<arguments>
+</arguments>
+<kw type="foritem" name="${val} = 0">
+<doc></doc>
+<arguments>
+</arguments>
+<kw type="kw" name="BuiltIn.Run Keyword If">
+<doc>Runs the given keyword with the given arguments, if `condition` is true.</doc>
+<arguments>
+<arg>${val}%2 == 0</arg>
+<arg>Continue For Loop</arg>
+</arguments>
+<kw type="kw" name="BuiltIn.Continue For Loop">
+<doc>Skips the current for loop iteration and continues from the next.</doc>
+<arguments>
+</arguments>
+<msg timestamp="20130818 00:30:42.005" level="INFO">Continuing for loop from the next iteration.</msg>
+<status status="PASS" endtime="20130818 00:30:42.005" starttime="20130818 00:30:42.005"></status>
+</kw>
+<status status="PASS" endtime="20130818 00:30:42.005" starttime="20130818 00:30:42.004"></status>
+</kw>
+<status status="PASS" endtime="20130818 00:30:42.006" starttime="20130818 00:30:42.004"></status>
+</kw>
+<kw type="foritem" name="${val} = 1">
+<doc></doc>
+<arguments>
+</arguments>
+<kw type="kw" name="BuiltIn.Run Keyword If">
+<doc>Runs the given keyword with the given arguments, if `condition` is true.</doc>
+<arguments>
+<arg>${val}%2 == 0</arg>
+<arg>Continue For Loop</arg>
+</arguments>
+<status status="PASS" endtime="20130818 00:30:42.006" starttime="20130818 00:30:42.006"></status>
+</kw>
+<kw type="kw" name="BuiltIn.Log">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>Proceeding with ${val}</arg>
+</arguments>
+<msg timestamp="20130818 00:30:42.007" level="INFO">Proceeding with 1</msg>
+<status status="PASS" endtime="20130818 00:30:42.007" starttime="20130818 00:30:42.006"></status>
+</kw>
+<status status="PASS" endtime="20130818 00:30:42.007" starttime="20130818 00:30:42.006"></status>
+</kw>
+<kw type="foritem" name="${val} = 2">
+<doc></doc>
+<arguments>
+</arguments>
+<kw type="kw" name="BuiltIn.Run Keyword If">
+<doc>Runs the given keyword with the given arguments, if `condition` is true.</doc>
+<arguments>
+<arg>${val}%2 == 0</arg>
+<arg>Continue For Loop</arg>
+</arguments>
+<kw type="kw" name="BuiltIn.Continue For Loop">
+<doc>Skips the current for loop iteration and continues from the next.</doc>
+<arguments>
+</arguments>
+<msg timestamp="20130818 00:30:42.008" level="INFO">Continuing for loop from the next iteration.</msg>
+<status status="PASS" endtime="20130818 00:30:42.008" starttime="20130818 00:30:42.008"></status>
+</kw>
+<status status="PASS" endtime="20130818 00:30:42.008" starttime="20130818 00:30:42.007"></status>
+</kw>
+<status status="PASS" endtime="20130818 00:30:42.009" starttime="20130818 00:30:42.007"></status>
+</kw>
+<kw type="foritem" name="${val} = 3">
+<doc></doc>
+<arguments>
+</arguments>
+<kw type="kw" name="BuiltIn.Run Keyword If">
+<doc>Runs the given keyword with the given arguments, if `condition` is true.</doc>
+<arguments>
+<arg>${val}%2 == 0</arg>
+<arg>Continue For Loop</arg>
+</arguments>
+<status status="PASS" endtime="20130818 00:30:42.009" starttime="20130818 00:30:42.009"></status>
+</kw>
+<kw type="kw" name="BuiltIn.Log">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>Proceeding with ${val}</arg>
+</arguments>
+<msg timestamp="20130818 00:30:42.010" level="INFO">Proceeding with 3</msg>
+<status status="PASS" endtime="20130818 00:30:42.012" starttime="20130818 00:30:42.010"></status>
+</kw>
+<status status="PASS" endtime="20130818 00:30:42.013" starttime="20130818 00:30:42.009"></status>
+</kw>
+<kw type="foritem" name="${val} = 4">
+<doc></doc>
+<arguments>
+</arguments>
+<kw type="kw" name="BuiltIn.Run Keyword If">
+<doc>Runs the given keyword with the given arguments, if `condition` is true.</doc>
+<arguments>
+<arg>${val}%2 == 0</arg>
+<arg>Continue For Loop</arg>
+</arguments>
+<kw type="kw" name="BuiltIn.Continue For Loop">
+<doc>Skips the current for loop iteration and continues from the next.</doc>
+<arguments>
+</arguments>
+<msg timestamp="20130818 00:30:42.014" level="INFO">Continuing for loop from the next iteration.</msg>
+<status status="PASS" endtime="20130818 00:30:42.014" starttime="20130818 00:30:42.014"></status>
+</kw>
+<status status="PASS" endtime="20130818 00:30:42.014" starttime="20130818 00:30:42.013"></status>
+</kw>
+<status status="PASS" endtime="20130818 00:30:42.014" starttime="20130818 00:30:42.013"></status>
+</kw>
+<kw type="foritem" name="${val} = 5">
+<doc></doc>
+<arguments>
+</arguments>
+<kw type="kw" name="BuiltIn.Run Keyword If">
+<doc>Runs the given keyword with the given arguments, if `condition` is true.</doc>
+<arguments>
+<arg>${val}%2 == 0</arg>
+<arg>Continue For Loop</arg>
+</arguments>
+<status status="PASS" endtime="20130818 00:30:42.015" starttime="20130818 00:30:42.015"></status>
+</kw>
+<kw type="kw" name="BuiltIn.Log">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>Proceeding with ${val}</arg>
+</arguments>
+<msg timestamp="20130818 00:30:42.016" level="INFO">Proceeding with 5</msg>
+<status status="PASS" endtime="20130818 00:30:42.016" starttime="20130818 00:30:42.016"></status>
+</kw>
+<status status="PASS" endtime="20130818 00:30:42.016" starttime="20130818 00:30:42.015"></status>
+</kw>
+<kw type="foritem" name="${val} = 6">
+<doc></doc>
+<arguments>
+</arguments>
+<kw type="kw" name="BuiltIn.Run Keyword If">
+<doc>Runs the given keyword with the given arguments, if `condition` is true.</doc>
+<arguments>
+<arg>${val}%2 == 0</arg>
+<arg>Continue For Loop</arg>
+</arguments>
+<kw type="kw" name="BuiltIn.Continue For Loop">
+<doc>Skips the current for loop iteration and continues from the next.</doc>
+<arguments>
+</arguments>
+<msg timestamp="20130818 00:30:42.017" level="INFO">Continuing for loop from the next iteration.</msg>
+<status status="PASS" endtime="20130818 00:30:42.017" starttime="20130818 00:30:42.017"></status>
+</kw>
+<status status="PASS" endtime="20130818 00:30:42.018" starttime="20130818 00:30:42.016"></status>
+</kw>
+<status status="PASS" endtime="20130818 00:30:42.018" starttime="20130818 00:30:42.016"></status>
+</kw>
+<kw type="foritem" name="${val} = 7">
+<doc></doc>
+<arguments>
+</arguments>
+<kw type="kw" name="BuiltIn.Run Keyword If">
+<doc>Runs the given keyword with the given arguments, if `condition` is true.</doc>
+<arguments>
+<arg>${val}%2 == 0</arg>
+<arg>Continue For Loop</arg>
+</arguments>
+<status status="PASS" endtime="20130818 00:30:42.018" starttime="20130818 00:30:42.018"></status>
+</kw>
+<kw type="kw" name="BuiltIn.Log">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>Proceeding with ${val}</arg>
+</arguments>
+<msg timestamp="20130818 00:30:42.019" level="INFO">Proceeding with 7</msg>
+<status status="PASS" endtime="20130818 00:30:42.019" starttime="20130818 00:30:42.019"></status>
+</kw>
+<status status="PASS" endtime="20130818 00:30:42.019" starttime="20130818 00:30:42.018"></status>
+</kw>
+<kw type="foritem" name="${val} = 8">
+<doc></doc>
+<arguments>
+</arguments>
+<kw type="kw" name="BuiltIn.Run Keyword If">
+<doc>Runs the given keyword with the given arguments, if `condition` is true.</doc>
+<arguments>
+<arg>${val}%2 == 0</arg>
+<arg>Continue For Loop</arg>
+</arguments>
+<kw type="kw" name="BuiltIn.Continue For Loop">
+<doc>Skips the current for loop iteration and continues from the next.</doc>
+<arguments>
+</arguments>
+<msg timestamp="20130818 00:30:42.020" level="INFO">Continuing for loop from the next iteration.</msg>
+<status status="PASS" endtime="20130818 00:30:42.021" starttime="20130818 00:30:42.020"></status>
+</kw>
+<status status="PASS" endtime="20130818 00:30:42.021" starttime="20130818 00:30:42.020"></status>
+</kw>
+<status status="PASS" endtime="20130818 00:30:42.021" starttime="20130818 00:30:42.019"></status>
+</kw>
+<kw type="foritem" name="${val} = 9">
+<doc></doc>
+<arguments>
+</arguments>
+<kw type="kw" name="BuiltIn.Run Keyword If">
+<doc>Runs the given keyword with the given arguments, if `condition` is true.</doc>
+<arguments>
+<arg>${val}%2 == 0</arg>
+<arg>Continue For Loop</arg>
+</arguments>
+<status status="PASS" endtime="20130818 00:30:42.022" starttime="20130818 00:30:42.021"></status>
+</kw>
+<kw type="kw" name="BuiltIn.Log">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>Proceeding with ${val}</arg>
+</arguments>
+<msg timestamp="20130818 00:30:42.023" level="INFO">Proceeding with 9</msg>
+<status status="PASS" endtime="20130818 00:30:42.023" starttime="20130818 00:30:42.022"></status>
+</kw>
+<status status="PASS" endtime="20130818 00:30:42.023" starttime="20130818 00:30:42.021"></status>
+</kw>
+<status status="PASS" endtime="20130818 00:30:42.023" starttime="20130818 00:30:42.004"></status>
+</kw>
+<kw type="kw" name="BuiltIn.Log">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>Continuing further with the test now that the loop has exited</arg>
+</arguments>
+<msg timestamp="20130818 00:30:42.023" level="INFO">Continuing further with the test now that the loop has exited</msg>
+<status status="PASS" endtime="20130818 00:30:42.023" starttime="20130818 00:30:42.023"></status>
+</kw>
+<doc></doc>
+<tags>
+</tags>
+<status status="PASS" endtime="20130818 00:30:42.024" critical="yes" starttime="20130818 00:30:42.003"></status>
+</test>
+<test id="s1-s4-t4" name="another way to continue">
+<kw type="for" name="${var} IN RANGE [ 0 | 10 ]">
+<doc></doc>
+<arguments>
+</arguments>
+<kw type="foritem" name="${var} = 0">
+<doc></doc>
+<arguments>
+</arguments>
+<kw type="kw" name="BuiltIn.Continue For Loop If">
+<doc>Skips the current for loop iteration if the `condition` is true.</doc>
+<arguments>
+<arg>${var} &gt; 2</arg>
+</arguments>
+<status status="PASS" endtime="20130818 00:30:42.026" starttime="20130818 00:30:42.026"></status>
+</kw>
+<kw type="kw" name="BuiltIn.Log">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>Running loop with ${var}</arg>
+</arguments>
+<msg timestamp="20130818 00:30:42.027" level="INFO">Running loop with 0</msg>
+<status status="PASS" endtime="20130818 00:30:42.027" starttime="20130818 00:30:42.026"></status>
+</kw>
+<status status="PASS" endtime="20130818 00:30:42.027" starttime="20130818 00:30:42.025"></status>
+</kw>
+<kw type="foritem" name="${var} = 1">
+<doc></doc>
+<arguments>
+</arguments>
+<kw type="kw" name="BuiltIn.Continue For Loop If">
+<doc>Skips the current for loop iteration if the `condition` is true.</doc>
+<arguments>
+<arg>${var} &gt; 2</arg>
+</arguments>
+<status status="PASS" endtime="20130818 00:30:42.030" starttime="20130818 00:30:42.027"></status>
+</kw>
+<kw type="kw" name="BuiltIn.Log">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>Running loop with ${var}</arg>
+</arguments>
+<msg timestamp="20130818 00:30:42.031" level="INFO">Running loop with 1</msg>
+<status status="PASS" endtime="20130818 00:30:42.031" starttime="20130818 00:30:42.031"></status>
+</kw>
+<status status="PASS" endtime="20130818 00:30:42.031" starttime="20130818 00:30:42.027"></status>
+</kw>
+<kw type="foritem" name="${var} = 2">
+<doc></doc>
+<arguments>
+</arguments>
+<kw type="kw" name="BuiltIn.Continue For Loop If">
+<doc>Skips the current for loop iteration if the `condition` is true.</doc>
+<arguments>
+<arg>${var} &gt; 2</arg>
+</arguments>
+<status status="PASS" endtime="20130818 00:30:42.032" starttime="20130818 00:30:42.031"></status>
+</kw>
+<kw type="kw" name="BuiltIn.Log">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>Running loop with ${var}</arg>
+</arguments>
+<msg timestamp="20130818 00:30:42.033" level="INFO">Running loop with 2</msg>
+<status status="PASS" endtime="20130818 00:30:42.033" starttime="20130818 00:30:42.032"></status>
+</kw>
+<status status="PASS" endtime="20130818 00:30:42.033" starttime="20130818 00:30:42.031"></status>
+</kw>
+<kw type="foritem" name="${var} = 3">
+<doc></doc>
+<arguments>
+</arguments>
+<kw type="kw" name="BuiltIn.Continue For Loop If">
+<doc>Skips the current for loop iteration if the `condition` is true.</doc>
+<arguments>
+<arg>${var} &gt; 2</arg>
+</arguments>
+<msg timestamp="20130818 00:30:42.034" level="INFO">Continuing for loop from the next iteration.</msg>
+<status status="PASS" endtime="20130818 00:30:42.034" starttime="20130818 00:30:42.033"></status>
+</kw>
+<status status="PASS" endtime="20130818 00:30:42.034" starttime="20130818 00:30:42.033"></status>
+</kw>
+<kw type="foritem" name="${var} = 4">
+<doc></doc>
+<arguments>
+</arguments>
+<kw type="kw" name="BuiltIn.Continue For Loop If">
+<doc>Skips the current for loop iteration if the `condition` is true.</doc>
+<arguments>
+<arg>${var} &gt; 2</arg>
+</arguments>
+<msg timestamp="20130818 00:30:42.035" level="INFO">Continuing for loop from the next iteration.</msg>
+<status status="PASS" endtime="20130818 00:30:42.035" starttime="20130818 00:30:42.035"></status>
+</kw>
+<status status="PASS" endtime="20130818 00:30:42.035" starttime="20130818 00:30:42.034"></status>
+</kw>
+<kw type="foritem" name="${var} = 5">
+<doc></doc>
+<arguments>
+</arguments>
+<kw type="kw" name="BuiltIn.Continue For Loop If">
+<doc>Skips the current for loop iteration if the `condition` is true.</doc>
+<arguments>
+<arg>${var} &gt; 2</arg>
+</arguments>
+<msg timestamp="20130818 00:30:42.036" level="INFO">Continuing for loop from the next iteration.</msg>
+<status status="PASS" endtime="20130818 00:30:42.037" starttime="20130818 00:30:42.036"></status>
+</kw>
+<status status="PASS" endtime="20130818 00:30:42.037" starttime="20130818 00:30:42.036"></status>
+</kw>
+<kw type="foritem" name="${var} = 6">
+<doc></doc>
+<arguments>
+</arguments>
+<kw type="kw" name="BuiltIn.Continue For Loop If">
+<doc>Skips the current for loop iteration if the `condition` is true.</doc>
+<arguments>
+<arg>${var} &gt; 2</arg>
+</arguments>
+<msg timestamp="20130818 00:30:42.038" level="INFO">Continuing for loop from the next iteration.</msg>
+<status status="PASS" endtime="20130818 00:30:42.038" starttime="20130818 00:30:42.037"></status>
+</kw>
+<status status="PASS" endtime="20130818 00:30:42.038" starttime="20130818 00:30:42.037"></status>
+</kw>
+<kw type="foritem" name="${var} = 7">
+<doc></doc>
+<arguments>
+</arguments>
+<kw type="kw" name="BuiltIn.Continue For Loop If">
+<doc>Skips the current for loop iteration if the `condition` is true.</doc>
+<arguments>
+<arg>${var} &gt; 2</arg>
+</arguments>
+<msg timestamp="20130818 00:30:42.039" level="INFO">Continuing for loop from the next iteration.</msg>
+<status status="PASS" endtime="20130818 00:30:42.039" starttime="20130818 00:30:42.038"></status>
+</kw>
+<status status="PASS" endtime="20130818 00:30:42.039" starttime="20130818 00:30:42.038"></status>
+</kw>
+<kw type="foritem" name="${var} = 8">
+<doc></doc>
+<arguments>
+</arguments>
+<kw type="kw" name="BuiltIn.Continue For Loop If">
+<doc>Skips the current for loop iteration if the `condition` is true.</doc>
+<arguments>
+<arg>${var} &gt; 2</arg>
+</arguments>
+<msg timestamp="20130818 00:30:42.041" level="INFO">Continuing for loop from the next iteration.</msg>
+<status status="PASS" endtime="20130818 00:30:42.041" starttime="20130818 00:30:42.040"></status>
+</kw>
+<status status="PASS" endtime="20130818 00:30:42.041" starttime="20130818 00:30:42.039"></status>
+</kw>
+<kw type="foritem" name="${var} = 9">
+<doc></doc>
+<arguments>
+</arguments>
+<kw type="kw" name="BuiltIn.Continue For Loop If">
+<doc>Skips the current for loop iteration if the `condition` is true.</doc>
+<arguments>
+<arg>${var} &gt; 2</arg>
+</arguments>
+<msg timestamp="20130818 00:30:42.042" level="INFO">Continuing for loop from the next iteration.</msg>
+<status status="PASS" endtime="20130818 00:30:42.043" starttime="20130818 00:30:42.042"></status>
+</kw>
+<status status="PASS" endtime="20130818 00:30:42.043" starttime="20130818 00:30:42.041"></status>
+</kw>
+<status status="PASS" endtime="20130818 00:30:42.043" starttime="20130818 00:30:42.025"></status>
+</kw>
+<kw type="kw" name="BuiltIn.Log">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>Outside the for loop contents</arg>
+</arguments>
+<msg timestamp="20130818 00:30:42.044" level="INFO">Outside the for loop contents</msg>
+<status status="PASS" endtime="20130818 00:30:42.044" starttime="20130818 00:30:42.043"></status>
+</kw>
+<doc></doc>
+<tags>
+</tags>
+<status status="PASS" endtime="20130818 00:30:42.044" critical="yes" starttime="20130818 00:30:42.024"></status>
+</test>
+<doc></doc>
+<metadata>
+</metadata>
+<status status="PASS" endtime="20130818 00:30:42.045" starttime="20130818 00:30:41.980"></status>
 </suite>
 <doc></doc>
 <metadata>
 </metadata>
-<status status="PASS" endtime="20130817 23:43:07.264" starttime="20130817 23:43:07.156"></status>
+<status status="PASS" endtime="20130818 00:30:42.047" starttime="20130818 00:30:41.872"></status>
 </suite>
 <statistics>
 <total>
-<stat fail="0" pass="6">Critical Tests</stat>
-<stat fail="0" pass="6">All Tests</stat>
+<stat fail="0" pass="10">Critical Tests</stat>
+<stat fail="0" pass="10">All Tests</stat>
 </total>
 <tag>
 </tag>
 <suite>
-<stat fail="0" pass="6" id="s1" name="Testsuites">Testsuites</stat>
+<stat fail="0" pass="10" id="s1" name="Testsuites">Testsuites</stat>
 <stat fail="0" pass="1" id="s1-s1" name="A simple textfile">Testsuites.A simple textfile</stat>
 <stat fail="0" pass="2" id="s1-s2" name="Basic Loop">Testsuites.Basic Loop</stat>
 <stat fail="0" pass="3" id="s1-s3" name="Ranges">Testsuites.Ranges</stat>
+<stat fail="0" pass="4" id="s1-s4" name="Continue Or Break">Testsuites.Continue Or Break</stat>
 </suite>
 </statistics>
 <errors>

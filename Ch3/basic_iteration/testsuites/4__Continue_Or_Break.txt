@@ -1,0 +1,21 @@
+| *Test Cases*  | *Action* 	| *Argument* |
+| break loop after going past 10 |
+| 				| :FOR 		| ${val} | IN RANGE | 8 | 15 |
+|				|			| Run Keyword If | ${val} > 10 | Exit For Loop
+|				|			| LOG	   | Proceeding with ${val} |
+|				| LOG		| Continuing further with the test now that the loop has exited
+| another way to break |
+|				| :FOR 		| ${var} | IN RANGE | 0 | 10 |
+|				|			| Exit for loop if | ${var} == 2 |
+|				|			| LOG | Running loop with ${var} |
+|				| LOG		| Outside the for loop contents |
+| do not process even numbers |
+| 				| :FOR 		| ${val} | IN RANGE | 0 | 10 |
+|				|			| Run Keyword If | ${val}%2 == 0 | Continue For Loop
+|				|			| LOG	   | Proceeding with ${val} |
+|				| LOG		| Continuing further with the test now that the loop has exited
+| another way to continue |
+|				| :FOR 		| ${var} | IN RANGE | 0 | 10 |
+|				|			| Continue for loop if | ${var} > 2 |
+|				|			| LOG | Running loop with ${var} |
+|				| LOG		| Outside the for loop contents |
