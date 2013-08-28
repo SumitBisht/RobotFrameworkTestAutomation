@@ -1,0 +1,9 @@
+*** Setting ***
+
+*** Test Cases ***
+
+Templated test case  [Template]  Log
+								sumit
+								gaurav
+								rahul
+								ram
