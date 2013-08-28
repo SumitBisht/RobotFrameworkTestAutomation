@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generated="20130828 17:07:12.358" generator="Robot 2.8.1 (Python 2.7.4 on linux2)">
+<suite source="/home/sumit/repo/RobotFrameworkTestAutomation/Ch3/behavior/testsuites" id="s1" name="Testsuites">
+<suite source="/home/sumit/repo/RobotFrameworkTestAutomation/Ch3/behavior/testsuites/1__run_browser_test.txt" id="s1-s1" name="Run Browser Test">
+<test id="s1-s1-t1" name="Open browser to view some website">
+<kw type="kw" name="Process.Start Process">
+<doc>Starts a new process on background.</doc>
+<arguments>
+<arg>firefox</arg>
+<arg>google.com</arg>
+</arguments>
+<msg timestamp="20130828 17:07:12.447" level="INFO">Starting process:
+['firefox', 'google.com']</msg>
+<status status="PASS" endtime="20130828 17:07:12.451" starttime="20130828 17:07:12.446"></status>
+</kw>
+<doc></doc>
+<tags>
+</tags>
+<status status="PASS" endtime="20130828 17:07:12.461" critical="yes" starttime="20130828 17:07:12.444"></status>
+</test>
+<doc></doc>
+<metadata>
+</metadata>
+<status status="PASS" endtime="20130828 17:07:12.468" starttime="20130828 17:07:12.427"></status>
+</suite>
+<suite source="/home/sumit/repo/RobotFrameworkTestAutomation/Ch3/behavior/testsuites/2__run_browser_behavior_test.txt" id="s1-s2" name="Run Browser Behavior Test">
+<test id="s1-s2-t1" name="Open google page">
+<kw type="kw" name="Provide the google.com homepage on firefox browser">
+<doc></doc>
+<arguments>
+</arguments>
+<kw type="kw" name="Process.Start Process">
+<doc>Starts a new process on background.</doc>
+<arguments>
+<arg>${progname}</arg>
+<arg>${website}</arg>
+</arguments>
+<msg timestamp="20130828 17:07:12.501" level="INFO">Starting process:
+['firefox', 'google.com']</msg>
+<status status="PASS" endtime="20130828 17:07:12.510" starttime="20130828 17:07:12.500"></status>
+</kw>
+<status status="PASS" endtime="20130828 17:07:12.511" starttime="20130828 17:07:12.494"></status>
+</kw>
+<doc></doc>
+<tags>
+</tags>
+<status status="PASS" endtime="20130828 17:07:12.511" critical="yes" starttime="20130828 17:07:12.492"></status>
+</test>
+<doc></doc>
+<metadata>
+</metadata>
+<status status="PASS" endtime="20130828 17:07:12.513" starttime="20130828 17:07:12.474"></status>
+</suite>
+<doc></doc>
+<metadata>
+</metadata>
+<status status="PASS" endtime="20130828 17:07:12.517" starttime="20130828 17:07:12.359"></status>
+</suite>
+<statistics>
+<total>
+<stat fail="0" pass="2">Critical Tests</stat>
+<stat fail="0" pass="2">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat fail="0" pass="2" id="s1" name="Testsuites">Testsuites</stat>
+<stat fail="0" pass="1" id="s1-s1" name="Run Browser Test">Testsuites.Run Browser Test</stat>
+<stat fail="0" pass="1" id="s1-s2" name="Run Browser Behavior Test">Testsuites.Run Browser Behavior Test</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

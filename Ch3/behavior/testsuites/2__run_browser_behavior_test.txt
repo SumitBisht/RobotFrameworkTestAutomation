@@ -1,0 +1,8 @@
+*** Setting ***
+Library  Process
+
+*** Keyword ***
+Provide the ${website} homepage on ${progname} browser  Start Process  ${progname}  ${website}
+
+*** Test Cases ***
+Open google page  Provide the google.com homepage on firefox browser
