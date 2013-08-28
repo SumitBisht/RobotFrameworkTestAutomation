@@ -1,0 +1,41 @@
+*** Settings ***
+Library  Selenium2Library
+
+
+*** Variables ***
+
+${SERVER}  localhost:5000
+${BROWSER}  firefox
+${DELAY}  0
+${VALID USER}  admin
+${VALID PASSWD}  s3cur3
+${LOGIN URL}  http://${SERVER}/
+${SUCCESS URL}  ${LOGIN URL}secure
+
+*** Test Cases ***
+Start up the browser window first  Open Browser  ${LOGIN URL}
+
+Perform Wrong credentials  GO TO  ${LOGIN URL}
+  #Maximize Browser Window
+  Set Selenium Speed  ${DELAY}
+  Title Should Be  My Application
+  #Page Should Contain TextField  username
+  #Page Should Contain TextField  password
+  Sleep  2
+  Input Text  username  ${VALID USER}
+  Input Password  password  Wrong password
+  Sleep  2
+  Click Button  Login
+  Page Should Contain  Error while logging in with ${VALID USER}
+
+Perform correct credentials  GO TO  ${LOGIN URL}
+  Title Should Be  My Application
+  #Page Should Contain TextField  username
+  #Page Should Contain TextField  password
+  Sleep  2
+  Input Text  username  ${VALID USER}
+  Input Password  password  ${VALID PASSWD}
+  Sleep  2
+  Click Button  Login
+  Location Should be  ${SUCCESS URL}
+  Page Should Contain  Logged in successfully

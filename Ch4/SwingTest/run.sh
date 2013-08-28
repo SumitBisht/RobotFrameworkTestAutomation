@@ -1,0 +1,1 @@
+CLASSPATH=libraries/swinglibrary-1.6.0.jar:libraries/SwingApp.jar jybot -o results/output -l results/log -r results/report testsuites

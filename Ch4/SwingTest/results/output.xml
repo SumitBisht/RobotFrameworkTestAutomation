@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot trunk 20130614 (Jython 2.5.2 on java1.7.0_15)" generated="20130825 22:50:50.241">
+<suite source="/home/sumit/Desktop/SwingTest/testsuites" id="s1" name="Testsuites">
+<suite source="/home/sumit/Desktop/SwingTest/testsuites/swing_application_test.txt" id="s1-s1" name="Swing Application Test">
+<test id="s1-s1-t1" name="Start test">
+<kw type="kw" name="SwingLibrary.Start Application">
+<doc>Alias for `Launch Application` keyword</doc>
+<arguments>
+<arg>org.sumitbisht.sampleapp.SampleApp</arg>
+</arguments>
+<status status="PASS" endtime="20130825 22:50:52.347" starttime="20130825 22:50:51.959"></status>
+</kw>
+<kw type="kw" name="BuiltIn.Log">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>Started the application</arg>
+</arguments>
+<msg timestamp="20130825 22:50:52.357" level="INFO">Started the application</msg>
+<status status="PASS" endtime="20130825 22:50:52.358" starttime="20130825 22:50:52.354"></status>
+</kw>
+<kw type="kw" name="SwingLibrary.Select Window">
+<doc>Selects a window as current context and sets focus to it.</doc>
+<arguments>
+<arg>Todo List</arg>
+</arguments>
+<status status="PASS" endtime="20130825 22:50:52.689" starttime="20130825 22:50:52.369"></status>
+</kw>
+<kw type="kw" name="SwingLibrary.Button Should Be Enabled">
+<doc>Fails if button is disabled</doc>
+<arguments>
+<arg>Add Todo item</arg>
+</arguments>
+<status status="PASS" endtime="20130825 22:50:52.939" starttime="20130825 22:50:52.691"></status>
+</kw>
+<kw type="kw" name="BuiltIn.Sleep">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>2</arg>
+</arguments>
+<msg timestamp="20130825 22:50:54.961" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" endtime="20130825 22:50:54.963" starttime="20130825 22:50:52.958"></status>
+</kw>
+<kw type="kw" name="BuiltIn.Log">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>Performing the actual actions now</arg>
+</arguments>
+<msg timestamp="20130825 22:50:54.993" level="INFO">Performing the actual actions now</msg>
+<status status="PASS" endtime="20130825 22:50:54.994" starttime="20130825 22:50:54.965"></status>
+</kw>
+<kw type="kw" name="SwingLibrary.Type Into Text Field">
+<doc>Types text into a text component (e.g. text field, password field, text area).</doc>
+<arguments>
+<arg>description</arg>
+<arg>Get this swing application tested.</arg>
+</arguments>
+<status status="PASS" endtime="20130825 22:50:55.123" starttime="20130825 22:50:54.996"></status>
+</kw>
+<kw type="kw" name="SwingLibrary.Push Button">
+<doc>Uses current context to search for a button and when found, pushes it.</doc>
+<arguments>
+<arg>Add Todo item</arg>
+</arguments>
+<status status="PASS" endtime="20130825 22:50:55.239" starttime="20130825 22:50:55.126"></status>
+</kw>
+<kw type="kw" name="BuiltIn.Sleep">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>2</arg>
+</arguments>
+<msg timestamp="20130825 22:50:57.244" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" endtime="20130825 22:50:57.248" starttime="20130825 22:50:55.241"></status>
+</kw>
+<kw type="kw" name="${itemCount} = SwingLibrary.Get List Item Count">
+<doc>Returns the number of items contained in list.</doc>
+<arguments>
+<arg>todolist</arg>
+</arguments>
+<msg timestamp="20130825 22:50:57.299" level="INFO">${itemCount} = 1</msg>
+<status status="PASS" endtime="20130825 22:50:57.298" starttime="20130825 22:50:57.257"></status>
+</kw>
+<kw type="kw" name="BuiltIn.Should Be Equal As Integers">
+<doc>Fails if objects are unequal after converting them to integers.</doc>
+<arguments>
+<arg>1</arg>
+<arg>${itemCount}</arg>
+</arguments>
+<msg timestamp="20130825 22:50:57.314" level="INFO">Argument types are:
+&lt;type 'unicode'&gt;
+&lt;type 'int'&gt;</msg>
+<status status="PASS" endtime="20130825 22:50:57.316" starttime="20130825 22:50:57.307"></status>
+</kw>
+<kw type="kw" name="BuiltIn.Log">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>Now performing more operations on the todolist</arg>
+</arguments>
+<msg timestamp="20130825 22:50:57.320" level="INFO">Now performing more operations on the todolist</msg>
+<status status="PASS" endtime="20130825 22:50:57.321" starttime="20130825 22:50:57.317"></status>
+</kw>
+<kw type="kw" name="SwingLibrary.Clear Text Field">
+<doc>Clears contents of text component (e.g. text field, password field, text area).</doc>
+<arguments>
+<arg>description</arg>
+</arguments>
+<status status="PASS" endtime="20130825 22:50:57.737" starttime="20130825 22:50:57.323"></status>
+</kw>
+<kw type="kw" name="SwingLibrary.Type Into Text Field">
+<doc>Types text into a text component (e.g. text field, password field, text area).</doc>
+<arguments>
+<arg>description</arg>
+<arg>Learn Acceptance Test Driven Development</arg>
+</arguments>
+<status status="PASS" endtime="20130825 22:50:57.776" starttime="20130825 22:50:57.741"></status>
+</kw>
+<kw type="kw" name="SwingLibrary.Push Button">
+<doc>Uses current context to search for a button and when found, pushes it.</doc>
+<arguments>
+<arg>Add Todo item</arg>
+</arguments>
+<status status="PASS" endtime="20130825 22:50:57.903" starttime="20130825 22:50:57.789"></status>
+</kw>
+<kw type="kw" name="${itemCount} = SwingLibrary.Get List Item Count">
+<doc>Returns the number of items contained in list.</doc>
+<arguments>
+<arg>todolist</arg>
+</arguments>
+<msg timestamp="20130825 22:50:57.914" level="INFO">${itemCount} = 2</msg>
+<status status="PASS" endtime="20130825 22:50:57.913" starttime="20130825 22:50:57.907"></status>
+</kw>
+<kw type="kw" name="BuiltIn.Should Be Equal As Integers">
+<doc>Fails if objects are unequal after converting them to integers.</doc>
+<arguments>
+<arg>2</arg>
+<arg>${itemCount}</arg>
+</arguments>
+<msg timestamp="20130825 22:50:57.921" level="INFO">Argument types are:
+&lt;type 'unicode'&gt;
+&lt;type 'int'&gt;</msg>
+<status status="PASS" endtime="20130825 22:50:57.923" starttime="20130825 22:50:57.916"></status>
+</kw>
+<kw type="kw" name="SwingLibrary.List Should Contain">
+<doc>Fails if value not in list.</doc>
+<arguments>
+<arg>todolist</arg>
+<arg>Get this swing application tested.</arg>
+</arguments>
+<status status="PASS" endtime="20130825 22:50:57.932" starttime="20130825 22:50:57.925"></status>
+</kw>
+<kw type="kw" name="SwingLibrary.List Should Contain">
+<doc>Fails if value not in list.</doc>
+<arguments>
+<arg>todolist</arg>
+<arg>Learn Acceptance Test Driven Development</arg>
+</arguments>
+<status status="PASS" endtime="20130825 22:50:57.940" starttime="20130825 22:50:57.934"></status>
+</kw>
+<kw type="kw" name="BuiltIn.Sleep">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>2</arg>
+</arguments>
+<msg timestamp="20130825 22:50:59.945" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" endtime="20130825 22:50:59.947" starttime="20130825 22:50:57.942"></status>
+</kw>
+<kw type="kw" name="BuiltIn.Log">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>Now testing the delete operation</arg>
+</arguments>
+<msg timestamp="20130825 22:50:59.953" level="INFO">Now testing the delete operation</msg>
+<status status="PASS" endtime="20130825 22:50:59.954" starttime="20130825 22:50:59.950"></status>
+</kw>
+<kw type="kw" name="SwingLibrary.Push Button">
+<doc>Uses current context to search for a button and when found, pushes it.</doc>
+<arguments>
+<arg>Delete</arg>
+</arguments>
+<status status="PASS" endtime="20130825 22:50:59.973" starttime="20130825 22:50:59.957"></status>
+</kw>
+<kw type="kw" name="BuiltIn.Log">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>Delete button shall not work on an unselected list</arg>
+</arguments>
+<msg timestamp="20130825 22:50:59.978" level="INFO">Delete button shall not work on an unselected list</msg>
+<status status="PASS" endtime="20130825 22:50:59.979" starttime="20130825 22:50:59.975"></status>
+</kw>
+<kw type="kw" name="${itemCount} = SwingLibrary.Get List Item Count">
+<doc>Returns the number of items contained in list.</doc>
+<arguments>
+<arg>todolist</arg>
+</arguments>
+<msg timestamp="20130825 22:51:00.011" level="INFO">${itemCount} = 2</msg>
+<status status="PASS" endtime="20130825 22:51:00.010" starttime="20130825 22:50:59.980"></status>
+</kw>
+<kw type="kw" name="BuiltIn.Should Be Equal As Integers">
+<doc>Fails if objects are unequal after converting them to integers.</doc>
+<arguments>
+<arg>2</arg>
+<arg>${itemCount}</arg>
+</arguments>
+<msg timestamp="20130825 22:51:00.022" level="INFO">Argument types are:
+&lt;type 'unicode'&gt;
+&lt;type 'int'&gt;</msg>
+<status status="PASS" endtime="20130825 22:51:00.024" starttime="20130825 22:51:00.018"></status>
+</kw>
+<kw type="kw" name="SwingLibrary.List Should Contain">
+<doc>Fails if value not in list.</doc>
+<arguments>
+<arg>todolist</arg>
+<arg>Learn Acceptance Test Driven Development</arg>
+</arguments>
+<status status="PASS" endtime="20130825 22:51:00.033" starttime="20130825 22:51:00.026"></status>
+</kw>
+<kw type="kw" name="SwingLibrary.Select From List">
+<doc>Selects an item from the list.</doc>
+<arguments>
+<arg>todolist</arg>
+<arg>Learn Acceptance Test Driven Development</arg>
+</arguments>
+<status status="PASS" endtime="20130825 22:51:00.067" starttime="20130825 22:51:00.034"></status>
+</kw>
+<kw type="kw" name="SwingLibrary.Push Button">
+<doc>Uses current context to search for a button and when found, pushes it.</doc>
+<arguments>
+<arg>Delete</arg>
+</arguments>
+<status status="PASS" endtime="20130825 22:51:00.102" starttime="20130825 22:51:00.068"></status>
+</kw>
+<kw type="kw" name="${itemCount} = SwingLibrary.Get List Item Count">
+<doc>Returns the number of items contained in list.</doc>
+<arguments>
+<arg>todolist</arg>
+</arguments>
+<msg timestamp="20130825 22:51:00.135" level="INFO">${itemCount} = 1</msg>
+<status status="PASS" endtime="20130825 22:51:00.134" starttime="20130825 22:51:00.104"></status>
+</kw>
+<kw type="kw" name="BuiltIn.Should Be Equal As Integers">
+<doc>Fails if objects are unequal after converting them to integers.</doc>
+<arguments>
+<arg>1</arg>
+<arg>${itemCount}</arg>
+</arguments>
+<msg timestamp="20130825 22:51:00.143" level="INFO">Argument types are:
+&lt;type 'unicode'&gt;
+&lt;type 'int'&gt;</msg>
+<status status="PASS" endtime="20130825 22:51:00.145" starttime="20130825 22:51:00.137"></status>
+</kw>
+<kw type="kw" name="SwingLibrary.List Should Not Contain">
+<doc>Fails if value is in list.</doc>
+<arguments>
+<arg>todolist</arg>
+<arg>Learn Acceptance Test Driven Development</arg>
+</arguments>
+<status status="PASS" endtime="20130825 22:51:00.155" starttime="20130825 22:51:00.148"></status>
+</kw>
+<kw type="kw" name="SwingLibrary.Select From List">
+<doc>Selects an item from the list.</doc>
+<arguments>
+<arg>todolist</arg>
+<arg>0</arg>
+</arguments>
+<status status="PASS" endtime="20130825 22:51:00.174" starttime="20130825 22:51:00.156"></status>
+</kw>
+<kw type="kw" name="SwingLibrary.Push Button">
+<doc>Uses current context to search for a button and when found, pushes it.</doc>
+<arguments>
+<arg>Delete</arg>
+</arguments>
+<status status="PASS" endtime="20130825 22:51:00.232" starttime="20130825 22:51:00.177"></status>
+</kw>
+<kw type="kw" name="BuiltIn.Log">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>Succesfully deleted the last item</arg>
+</arguments>
+<msg timestamp="20130825 22:51:00.242" level="INFO">Succesfully deleted the last item</msg>
+<status status="PASS" endtime="20130825 22:51:00.243" starttime="20130825 22:51:00.234"></status>
+</kw>
+<kw type="kw" name="BuiltIn.Sleep">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>2</arg>
+</arguments>
+<msg timestamp="20130825 22:51:02.250" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" endtime="20130825 22:51:02.251" starttime="20130825 22:51:00.247"></status>
+</kw>
+<doc></doc>
+<tags>
+</tags>
+<status status="PASS" critical="yes" endtime="20130825 22:51:02.255" starttime="20130825 22:50:51.939"></status>
+</test>
+<doc></doc>
+<metadata>
+</metadata>
+<status status="PASS" endtime="20130825 22:51:02.269" starttime="20130825 22:50:50.694"></status>
+</suite>
+<doc></doc>
+<metadata>
+</metadata>
+<status status="PASS" endtime="20130825 22:51:02.282" starttime="20130825 22:50:50.249"></status>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0">Critical Tests</stat>
+<stat pass="1" fail="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" id="s1" fail="0" name="Testsuites">Testsuites</stat>
+<stat pass="1" id="s1-s1" fail="0" name="Swing Application Test">Testsuites.Swing Application Test</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

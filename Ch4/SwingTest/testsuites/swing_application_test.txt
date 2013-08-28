@@ -1,0 +1,39 @@
+***Settings***
+Library  SwingLibrary
+
+***Test Case***
+Start test  Start Application  org.sumitbisht.sampleapp.SampleApp
+  Log  Started the application
+  Select Window  Todo List
+  Button Should Be Enabled  Add Todo item
+  Sleep  2
+  Log  Performing the actual actions now
+  Type Into Text Field  description  Get this swing application tested.
+  Push Button  Add Todo item
+  Sleep  2
+  ${itemCount}=  Get List Item Count  todolist
+  Should Be Equal As Integers  1  ${itemCount}
+  Log  Now performing more operations on the todolist
+  Clear Text Field  description
+  Type Into Text Field  description  Learn Acceptance Test Driven Development
+  Push Button  Add Todo item
+  ${itemCount}=  Get List Item Count  todolist
+  Should Be Equal As Integers  2  ${itemCount}
+  List Should Contain  todolist  Get this swing application tested.
+  List Should Contain  todolist  Learn Acceptance Test Driven Development
+  Sleep  2
+  Log  Now testing the delete operation
+  Push Button  Delete
+  Log  Delete button shall not work on an unselected list
+  ${itemCount}=  Get List Item Count  todolist
+  Should Be Equal As Integers  2  ${itemCount}
+  List Should Contain  todolist  Learn Acceptance Test Driven Development
+  Select From List  todolist  Learn Acceptance Test Driven Development
+  Push Button  Delete
+  ${itemCount}=  Get List Item Count  todolist
+  Should Be Equal As Integers  1  ${itemCount}
+  List Should Not Contain  todolist  Learn Acceptance Test Driven Development
+  Select From List  todolist  	0
+  Push Button  Delete
+  Log  Succesfully deleted the last item
+  Sleep  2

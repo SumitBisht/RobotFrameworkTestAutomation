@@ -1,0 +1,12 @@
+{% extends "layout.html" %}
+<title>Enter user details</title>
+{% block body %}
+<div id = "form">
+	<form id="details" action="/secure" method="post">
+		Name: <input type="text" id="uname" name="username" /><br />
+		Password: <input type="password" id="passwd" name="password" /><br />
+		<input type="submit" value="Login">
+	</form>
+	<p>please enter the login credentials</p>
+</div>
+{% endblock %}
