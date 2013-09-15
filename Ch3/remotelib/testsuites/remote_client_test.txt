@@ -1,0 +1,9 @@
+*** Setting ***
+Library  Remote  http://localhost:8270
+
+*** Test Cases ***
+
+Display  [Documentation]  The variables declared on another robotframework server can be used.
+
+  Log  Checking the string values
+  strings_should_be_equal  packt  packt

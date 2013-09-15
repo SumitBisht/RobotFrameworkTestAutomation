@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generated="20130915 20:10:17.940" generator="Robot 2.8.1 (Python 2.7.4 on linux2)">
+<suite source="/home/sumit/repo/RobotFrameworkTestAutomation/Ch3/remotelib/testsuites" id="s1" name="Testsuites">
+<suite source="/home/sumit/repo/RobotFrameworkTestAutomation/Ch3/remotelib/testsuites/remote_client_test.txt" id="s1-s1" name="Remote Client Test">
+<test id="s1-s1-t1" name="Display">
+<kw type="kw" name="BuiltIn.Log">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>Checking the string values</arg>
+</arguments>
+<msg timestamp="20130915 20:10:18.157" level="INFO">Checking the string values</msg>
+<status status="PASS" endtime="20130915 20:10:18.157" starttime="20130915 20:10:18.157"></status>
+</kw>
+<kw type="kw" name="Remote.Strings Should Be Equal">
+<doc></doc>
+<arguments>
+<arg>packt</arg>
+<arg>packt</arg>
+</arguments>
+<msg timestamp="20130915 20:10:18.167" level="INFO">Comparing 'packt' to 'packt'</msg>
+<status status="PASS" endtime="20130915 20:10:18.167" starttime="20130915 20:10:18.158"></status>
+</kw>
+<doc>The variables declared on another robotframework server can be used.</doc>
+<tags>
+</tags>
+<status status="PASS" endtime="20130915 20:10:18.168" critical="yes" starttime="20130915 20:10:18.155"></status>
+</test>
+<doc></doc>
+<metadata>
+</metadata>
+<status status="PASS" endtime="20130915 20:10:18.169" starttime="20130915 20:10:17.978"></status>
+</suite>
+<doc></doc>
+<metadata>
+</metadata>
+<status status="PASS" endtime="20130915 20:10:18.171" starttime="20130915 20:10:17.941"></status>
+</suite>
+<statistics>
+<total>
+<stat fail="0" pass="1">Critical Tests</stat>
+<stat fail="0" pass="1">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat fail="0" pass="1" id="s1" name="Testsuites">Testsuites</stat>
+<stat fail="0" pass="1" id="s1-s1" name="Remote Client Test">Testsuites.Remote Client Test</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
