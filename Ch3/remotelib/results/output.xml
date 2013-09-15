@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generated="20130915 20:10:17.940" generator="Robot 2.8.1 (Python 2.7.4 on linux2)">
+<robot generated="20130915 20:21:08.282" generator="Robot 2.8.1 (Python 2.7.4 on linux2)">
 <suite source="/home/sumit/repo/RobotFrameworkTestAutomation/Ch3/remotelib/testsuites" id="s1" name="Testsuites">
 <suite source="/home/sumit/repo/RobotFrameworkTestAutomation/Ch3/remotelib/testsuites/remote_client_test.txt" id="s1-s1" name="Remote Client Test">
 <test id="s1-s1-t1" name="Display">
@@ -8,8 +8,8 @@
 <arguments>
 <arg>Checking the string values</arg>
 </arguments>
-<msg timestamp="20130915 20:10:18.157" level="INFO">Checking the string values</msg>
-<status status="PASS" endtime="20130915 20:10:18.157" starttime="20130915 20:10:18.157"></status>
+<msg timestamp="20130915 20:21:08.344" level="INFO">Checking the string values</msg>
+<status status="PASS" endtime="20130915 20:21:08.344" starttime="20130915 20:21:08.343"></status>
 </kw>
 <kw type="kw" name="Remote.Strings Should Be Equal">
 <doc></doc>
@@ -17,23 +17,23 @@
 <arg>packt</arg>
 <arg>packt</arg>
 </arguments>
-<msg timestamp="20130915 20:10:18.167" level="INFO">Comparing 'packt' to 'packt'</msg>
-<status status="PASS" endtime="20130915 20:10:18.167" starttime="20130915 20:10:18.158"></status>
+<msg timestamp="20130915 20:21:08.347" level="INFO">Comparing 'packt' to 'packt'</msg>
+<status status="PASS" endtime="20130915 20:21:08.347" starttime="20130915 20:21:08.344"></status>
 </kw>
 <doc>The variables declared on another robotframework server can be used.</doc>
 <tags>
 </tags>
-<status status="PASS" endtime="20130915 20:10:18.168" critical="yes" starttime="20130915 20:10:18.155"></status>
+<status status="PASS" endtime="20130915 20:21:08.347" critical="yes" starttime="20130915 20:21:08.342"></status>
 </test>
 <doc></doc>
 <metadata>
 </metadata>
-<status status="PASS" endtime="20130915 20:10:18.169" starttime="20130915 20:10:17.978"></status>
+<status status="PASS" endtime="20130915 20:21:08.348" starttime="20130915 20:21:08.321"></status>
 </suite>
 <doc></doc>
 <metadata>
 </metadata>
-<status status="PASS" endtime="20130915 20:10:18.171" starttime="20130915 20:10:17.941"></status>
+<status status="PASS" endtime="20130915 20:21:08.350" starttime="20130915 20:21:08.282"></status>
 </suite>
 <statistics>
 <total>
