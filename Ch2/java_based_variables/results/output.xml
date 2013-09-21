@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot trunk 20130614 (Jython 2.5.2 on java1.7.0_15)" generated="20130921 22:50:15.033">
+<suite source="/home/sumit/repo/RobotFrameworkTestAutomation/Ch2/java_based_variables/testsuites" id="s1" name="Testsuites">
+<suite source="/home/sumit/repo/RobotFrameworkTestAutomation/Ch2/java_based_variables/testsuites/Using_simple_variables.txt" id="s1-s1" name="Using simple variables">
+<test id="s1-s1-t1" name="Test about getting constant">
+<kw type="kw" name="BuiltIn.Log">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>Picking up a constant value worth ${CONSTVAL</arg>
+</arguments>
+<msg timestamp="20130921 22:50:15.692" level="INFO">Picking up a constant value worth ${CONSTVAL</msg>
+<status status="PASS" endtime="20130921 22:50:15.694" starttime="20130921 22:50:15.685"></status>
+</kw>
+<doc></doc>
+<tags>
+</tags>
+<status status="PASS" critical="yes" endtime="20130921 22:50:15.698" starttime="20130921 22:50:15.676"></status>
+</test>
+<test id="s1-s1-t2" name="Test non final writer">
+<kw type="kw" name="BuiltIn.Log">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>for a first time writer, ${Publisher} is a good start.</arg>
+</arguments>
+<msg timestamp="20130921 22:50:15.711" level="INFO">for a first time writer, Packt is a good start.</msg>
+<status status="PASS" endtime="20130921 22:50:15.712" starttime="20130921 22:50:15.707"></status>
+</kw>
+<doc></doc>
+<tags>
+</tags>
+<status status="PASS" critical="yes" endtime="20130921 22:50:15.715" starttime="20130921 22:50:15.702"></status>
+</test>
+<test id="s1-s1-t3" name="Test entire variable array">
+<kw type="kw" name="BuiltIn.Log">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>The array contents are ${marks[0]}, ${marks[1]}, ${marks[2]} and ${marks[3]}</arg>
+</arguments>
+<msg timestamp="20130921 22:50:15.768" level="INFO">The array contents are 12, 15, 11 and 8</msg>
+<status status="PASS" endtime="20130921 22:50:15.769" starttime="20130921 22:50:15.724"></status>
+</kw>
+<doc></doc>
+<tags>
+</tags>
+<status status="PASS" critical="yes" endtime="20130921 22:50:15.773" starttime="20130921 22:50:15.719"></status>
+</test>
+<test id="s1-s1-t4" name="Test some value">
+<kw type="kw" name="BuiltIn.Log">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>and... I forgot on more thing, which is ${marks[4]}</arg>
+</arguments>
+<msg timestamp="20130921 22:50:15.797" level="INFO">and... I forgot on more thing, which is 16</msg>
+<status status="PASS" endtime="20130921 22:50:15.798" starttime="20130921 22:50:15.790"></status>
+</kw>
+<doc></doc>
+<tags>
+</tags>
+<status status="PASS" critical="yes" endtime="20130921 22:50:15.800" starttime="20130921 22:50:15.779"></status>
+</test>
+<test id="s1-s1-t5" name="Test simple public variables">
+<kw type="kw" name="BuiltIn.Log">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>${name} is really good!</arg>
+</arguments>
+<msg timestamp="20130921 22:50:15.814" level="INFO">Robot Framework is really good!</msg>
+<status status="PASS" endtime="20130921 22:50:15.815" starttime="20130921 22:50:15.810"></status>
+</kw>
+<doc></doc>
+<tags>
+</tags>
+<status status="PASS" critical="yes" endtime="20130921 22:50:15.817" starttime="20130921 22:50:15.803"></status>
+</test>
+<doc></doc>
+<metadata>
+</metadata>
+<status status="PASS" endtime="20130921 22:50:15.822" starttime="20130921 22:50:15.615"></status>
+</suite>
+<doc></doc>
+<metadata>
+</metadata>
+<status status="PASS" endtime="20130921 22:50:15.835" starttime="20130921 22:50:15.041"></status>
+</suite>
+<statistics>
+<total>
+<stat pass="5" fail="0">Critical Tests</stat>
+<stat pass="5" fail="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="5" id="s1" fail="0" name="Testsuites">Testsuites</stat>
+<stat pass="5" id="s1-s1" fail="0" name="Using simple variables">Testsuites.Using simple variables</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

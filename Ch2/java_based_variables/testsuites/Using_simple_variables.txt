@@ -1,0 +1,13 @@
+*** Setting ***
+Variables  ./SimpleVariableFile.java
+
+*** Test Cases ***
+Test about getting constant  Log  Picking up a constant value worth ${CONSTVAL
+
+Test non final writer  Log  for a first time writer, ${Publisher} is a good start.
+
+Test entire variable array  Log  The array contents are ${marks[0]}, ${marks[1]}, ${marks[2]} and ${marks[3]}
+
+Test some value  Log  and... I forgot on more thing, which is ${marks[4]}
+
+Test simple public variables  Log  ${name} is really good!
