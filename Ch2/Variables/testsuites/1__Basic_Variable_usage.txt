@@ -13,3 +13,5 @@ More complex task  Log  @{STRINGS}[0]
   log  @{STRINGS}[3]
 
 Use variables from external file  Log  Marks Obtained: ${MARKS}
+  log  some days like ${days[0]} are different than ${days[-1]}
+  log  Copyleft, ${details['pub']}

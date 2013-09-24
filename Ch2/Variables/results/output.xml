@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generated="20130828 17:10:46.730" generator="Robot 2.8.1 (Python 2.7.4 on linux2)">
+<robot generated="20130924 19:18:19.291" generator="Robot 2.8.1 (Python 2.7.4 on linux2)">
 <suite source="/home/sumit/repo/RobotFrameworkTestAutomation/Ch2/Variables/testsuites" id="s1" name="Testsuites">
 <suite source="/home/sumit/repo/RobotFrameworkTestAutomation/Ch2/Variables/testsuites/1__Basic_Variable_usage.txt" id="s1-s1" name="Basic Variable usage">
 <test id="s1-s1-t1" name="A Simple usage of variables">
@@ -8,13 +8,13 @@
 <arguments>
 <arg>${VARIABLE}</arg>
 </arguments>
-<msg timestamp="20130828 17:10:46.823" level="INFO">This is a simple string variable</msg>
-<status status="PASS" endtime="20130828 17:10:46.823" starttime="20130828 17:10:46.823"></status>
+<msg timestamp="20130924 19:18:19.396" level="INFO">This is a simple string variable</msg>
+<status status="PASS" endtime="20130924 19:18:19.396" starttime="20130924 19:18:19.395"></status>
 </kw>
 <doc></doc>
 <tags>
 </tags>
-<status status="PASS" endtime="20130828 17:10:46.824" critical="yes" starttime="20130828 17:10:46.821"></status>
+<status status="PASS" endtime="20130924 19:18:19.397" critical="yes" starttime="20130924 19:18:19.387"></status>
 </test>
 <test id="s1-s1-t2" name="More complex task">
 <kw type="kw" name="BuiltIn.Log">
@@ -22,37 +22,37 @@
 <arguments>
 <arg>@{STRINGS}[0]</arg>
 </arguments>
-<msg timestamp="20130828 17:10:46.827" level="INFO">a</msg>
-<status status="PASS" endtime="20130828 17:10:46.827" starttime="20130828 17:10:46.826"></status>
+<msg timestamp="20130924 19:18:19.413" level="INFO">a</msg>
+<status status="PASS" endtime="20130924 19:18:19.413" starttime="20130924 19:18:19.412"></status>
 </kw>
 <kw type="kw" name="BuiltIn.Log">
 <doc>Logs the given message with the given level.</doc>
 <arguments>
 <arg>this is @{STRINGS}[0] @{STRINGS}[1].</arg>
 </arguments>
-<msg timestamp="20130828 17:10:46.828" level="INFO">this is a collection.</msg>
-<status status="PASS" endtime="20130828 17:10:46.829" starttime="20130828 17:10:46.828"></status>
+<msg timestamp="20130924 19:18:19.420" level="INFO">this is a collection.</msg>
+<status status="PASS" endtime="20130924 19:18:19.420" starttime="20130924 19:18:19.416"></status>
 </kw>
 <kw type="kw" name="BuiltIn.Log">
 <doc>Logs the given message with the given level.</doc>
 <arguments>
 <arg>@{STRINGS}[2]</arg>
 </arguments>
-<msg timestamp="20130828 17:10:46.830" level="INFO">of</msg>
-<status status="PASS" endtime="20130828 17:10:46.830" starttime="20130828 17:10:46.829"></status>
+<msg timestamp="20130924 19:18:19.421" level="INFO">of</msg>
+<status status="PASS" endtime="20130924 19:18:19.421" starttime="20130924 19:18:19.421"></status>
 </kw>
 <kw type="kw" name="BuiltIn.Log">
 <doc>Logs the given message with the given level.</doc>
 <arguments>
 <arg>@{STRINGS}[3]</arg>
 </arguments>
-<msg timestamp="20130828 17:10:46.831" level="INFO">strings</msg>
-<status status="PASS" endtime="20130828 17:10:46.831" starttime="20130828 17:10:46.830"></status>
+<msg timestamp="20130924 19:18:19.422" level="INFO">strings</msg>
+<status status="PASS" endtime="20130924 19:18:19.422" starttime="20130924 19:18:19.422"></status>
 </kw>
 <doc></doc>
 <tags>
 </tags>
-<status status="PASS" endtime="20130828 17:10:46.832" critical="yes" starttime="20130828 17:10:46.825"></status>
+<status status="PASS" endtime="20130924 19:18:19.425" critical="yes" starttime="20130924 19:18:19.398"></status>
 </test>
 <test id="s1-s1-t3" name="Use variables from external file">
 <kw type="kw" name="BuiltIn.Log">
@@ -60,18 +60,34 @@
 <arguments>
 <arg>Marks Obtained: ${MARKS}</arg>
 </arguments>
-<msg timestamp="20130828 17:10:46.836" level="INFO">Marks Obtained: 65.5</msg>
-<status status="PASS" endtime="20130828 17:10:46.836" starttime="20130828 17:10:46.835"></status>
+<msg timestamp="20130924 19:18:19.431" level="INFO">Marks Obtained: 65.5</msg>
+<status status="PASS" endtime="20130924 19:18:19.444" starttime="20130924 19:18:19.431"></status>
+</kw>
+<kw type="kw" name="BuiltIn.Log">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>some days like ${days[0]} are different than ${days[-1]}</arg>
+</arguments>
+<msg timestamp="20130924 19:18:19.445" level="INFO">some days like Monday are different than Sunday</msg>
+<status status="PASS" endtime="20130924 19:18:19.445" starttime="20130924 19:18:19.444"></status>
+</kw>
+<kw type="kw" name="BuiltIn.Log">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>Copyleft, ${details['pub']}</arg>
+</arguments>
+<msg timestamp="20130924 19:18:19.447" level="INFO">Copyleft, 2013</msg>
+<status status="PASS" endtime="20130924 19:18:19.450" starttime="20130924 19:18:19.446"></status>
 </kw>
 <doc></doc>
 <tags>
 </tags>
-<status status="PASS" endtime="20130828 17:10:46.837" critical="yes" starttime="20130828 17:10:46.833"></status>
+<status status="PASS" endtime="20130924 19:18:19.452" critical="yes" starttime="20130924 19:18:19.426"></status>
 </test>
 <doc></doc>
 <metadata>
 </metadata>
-<status status="PASS" endtime="20130828 17:10:46.838" starttime="20130828 17:10:46.799"></status>
+<status status="PASS" endtime="20130924 19:18:19.455" starttime="20130924 19:18:19.380"></status>
 </suite>
 <suite source="/home/sumit/repo/RobotFrameworkTestAutomation/Ch2/Variables/testsuites/2__External_Resource_file_usage.txt" id="s1-s2" name="External Resource file usage">
 <test id="s1-s2-t1" name="User Resource">
@@ -85,10 +101,10 @@
 <arguments>
 <arg>Welcome to the customized Test by robot framework, ${username}!</arg>
 </arguments>
-<msg timestamp="20130828 17:10:46.852" level="INFO">Welcome to the customized Test by robot framework, Test User!</msg>
-<status status="PASS" endtime="20130828 17:10:46.852" starttime="20130828 17:10:46.851"></status>
+<msg timestamp="20130924 19:18:19.505" level="INFO">Welcome to the customized Test by robot framework, Test User!</msg>
+<status status="PASS" endtime="20130924 19:18:19.505" starttime="20130924 19:18:19.505"></status>
 </kw>
-<status status="PASS" endtime="20130828 17:10:46.853" starttime="20130828 17:10:46.850"></status>
+<status status="PASS" endtime="20130924 19:18:19.506" starttime="20130924 19:18:19.498"></status>
 </kw>
 <kw type="kw" name="resource_file.Perform operation">
 <doc></doc>
@@ -101,33 +117,33 @@
 <arguments>
 <arg>Performing some operation over ${arg1} and ${arg2}</arg>
 </arguments>
-<msg timestamp="20130828 17:10:46.855" level="INFO">Performing some operation over 12 and 15</msg>
-<status status="PASS" endtime="20130828 17:10:46.855" starttime="20130828 17:10:46.854"></status>
+<msg timestamp="20130924 19:18:19.509" level="INFO">Performing some operation over 12 and 15</msg>
+<status status="PASS" endtime="20130924 19:18:19.509" starttime="20130924 19:18:19.508"></status>
 </kw>
-<status status="PASS" endtime="20130828 17:10:46.856" starttime="20130828 17:10:46.853"></status>
+<status status="PASS" endtime="20130924 19:18:19.510" starttime="20130924 19:18:19.507"></status>
 </kw>
 <kw type="kw" name="BuiltIn.Log">
 <doc>Logs the given message with the given level.</doc>
 <arguments>
 <arg>User specific keywords used</arg>
 </arguments>
-<msg timestamp="20130828 17:10:46.857" level="INFO">User specific keywords used</msg>
-<status status="PASS" endtime="20130828 17:10:46.857" starttime="20130828 17:10:46.856"></status>
+<msg timestamp="20130924 19:18:19.518" level="INFO">User specific keywords used</msg>
+<status status="PASS" endtime="20130924 19:18:19.518" starttime="20130924 19:18:19.517"></status>
 </kw>
 <doc></doc>
 <tags>
 </tags>
-<status status="PASS" endtime="20130828 17:10:46.858" critical="yes" starttime="20130828 17:10:46.849"></status>
+<status status="PASS" endtime="20130924 19:18:19.519" critical="yes" starttime="20130924 19:18:19.495"></status>
 </test>
 <doc></doc>
 <metadata>
 </metadata>
-<status status="PASS" endtime="20130828 17:10:46.859" starttime="20130828 17:10:46.840"></status>
+<status status="PASS" endtime="20130924 19:18:19.520" starttime="20130924 19:18:19.459"></status>
 </suite>
 <doc></doc>
 <metadata>
 </metadata>
-<status status="PASS" endtime="20130828 17:10:46.861" starttime="20130828 17:10:46.731"></status>
+<status status="PASS" endtime="20130924 19:18:19.534" starttime="20130924 19:18:19.292"></status>
 </suite>
 <statistics>
 <total>
