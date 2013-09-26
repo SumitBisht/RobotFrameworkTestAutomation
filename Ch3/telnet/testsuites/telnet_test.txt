@@ -1,0 +1,10 @@
+*** Setting ***
+Library  Telnet
+*** Test Cases ***
+Do a telnet session
+  Close all connections
+  Open Connection  127.0.0.1  prompt=test
+  Login  test  test  login_prompt=login:  password_prompt=password:
+  ${details}  Execute Command  ls -l
+  log  ${details}
+  ${output}  Read Until Prompt
