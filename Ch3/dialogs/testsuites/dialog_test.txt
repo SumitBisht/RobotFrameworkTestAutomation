@@ -1,0 +1,16 @@
+*** Setting ***
+Library  Dialogs
+*** Test Cases ***
+
+Use manual entry to continue  
+  Log  Starting test execution
+  Execute Manual Step  Perform manual operation and continue
+  Log  Continue test execution
+
+Obtain user input
+  ${selection1}=  Get Value from user  Enter first value  Ravishing Red
+  ${selection2}=  Get Value from user  Enter second value  Sparkling Silver
+  ${selection3}=  Get Value from user  Enter third value  Glorious Gold
+  ${selection4}=  Get Value from user  Enter fourth value  Whitest White
+  Pause Execution  Test execution paused, click OK to continue
+  Get Selection from user  Enter the color to use, cancel to exit.  ${selection1}  ${selection2}  ${selection3}  ${selection4}  
