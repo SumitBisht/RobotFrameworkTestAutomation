@@ -8,3 +8,4 @@ Do a telnet session
   ${details}  Execute Command  ls -l
   log  ${details}
   ${output}  Read Until Prompt
+  Close Connection
