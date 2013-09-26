@@ -1,0 +1,6 @@
+*** Setting ***
+Library  Screenshot
+*** Test Cases ***
+test some screenshots
+  Sleep  5
+  Take Screenshot  screenpic.jpg  width=500 px

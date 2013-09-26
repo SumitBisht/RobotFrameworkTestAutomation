@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generated="20130926 14:31:14.315" generator="Robot 2.7.7 (Python 2.7 on win32)">
+<suite source="E:\repo\RobotFrameworkTestAutomation\Ch3\screenshots\testsuites" id="s1" name="Testsuites">
+<suite source="E:\repo\RobotFrameworkTestAutomation\Ch3\screenshots\testsuites\screenshot_example.txt" id="s1-s1" name="Screenshot Example">
+<test id="s1-s1-t1" timeout="" name="test some screenshots">
+<kw type="kw" name="BuiltIn.Sleep" timeout="">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>5</arg>
+</arguments>
+<msg timestamp="20130926 14:31:19.418" level="INFO">Slept 5 seconds</msg>
+<status status="PASS" endtime="20130926 14:31:19.418" starttime="20130926 14:31:14.417"></status>
+</kw>
+<kw type="kw" name="Screenshot.Take Screenshot" timeout="">
+<doc>Takes a screenshot in JPEG format and embeds it into the log file.</doc>
+<arguments>
+<arg>screenpic.jpg</arg>
+<arg>width=500 px</arg>
+</arguments>
+<msg timestamp="20130926 14:31:19.521" html="yes" level="INFO">&lt;a href="screenpic.jpg"&gt;&lt;img src="screenpic.jpg" width="500 px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" endtime="20130926 14:31:19.521" starttime="20130926 14:31:19.419"></status>
+</kw>
+<doc></doc>
+<tags>
+</tags>
+<status status="PASS" endtime="20130926 14:31:19.522" critical="yes" starttime="20130926 14:31:14.413"></status>
+</test>
+<doc></doc>
+<metadata>
+</metadata>
+<status status="PASS" endtime="20130926 14:31:19.523" starttime="20130926 14:31:14.337"></status>
+</suite>
+<doc></doc>
+<metadata>
+</metadata>
+<status status="PASS" endtime="20130926 14:31:19.524" starttime="20130926 14:31:14.315"></status>
+</suite>
+<statistics>
+<total>
+<stat fail="0" pass="1">Critical Tests</stat>
+<stat fail="0" pass="1">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat fail="0" pass="1" id="s1" name="Testsuites">Testsuites</stat>
+<stat fail="0" pass="1" id="s1-s1" name="Screenshot Example">Testsuites.Screenshot Example</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
