@@ -1,0 +1,20 @@
+*** Setting ***
+Library  Collections
+Variables  testfeeder.py
+*** Test Cases ***
+Verify lists structure  Should not be empty  ${DAYS}
+                        Should contain  ${DAYS}  Wednesday
+                        Should not contain  ${DAYS}  Saturday
+                        Append to List  ${DAYS}  Saturday
+                        Should contain  ${DAYS}  Saturday
+                        ${constructed_days}  Create List  Monday  Wednesday  Friday  Sunday  Saturday
+                        Lists should be equal  ${DAYS}  ${constructed_days}
+
+Verify dictionary info  Should not be empty  ${details}
+                        Dictionary should contain key  ${details}  genre
+                        Dictionary should contain value  ${details}  open-source
+                        #Dictionary Should Contain Item  ${details}  genre  open-source
+                        Remove From Dictionary  ${details}  genre
+                        Dictionary should not contain key  ${details}  genre
+                        Dictionary should not contain value  ${details}  open-source
+                        Length Should Be  ${details}  2
