@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generated="20130926 15:29:29.154" generator="Robot 2.7.7 (Python 2.7 on win32)">
+<suite source="E:\repo\RobotFrameworkTestAutomation\Ch3\strings\testsuites" id="s1" name="Testsuites">
+<suite source="E:\repo\RobotFrameworkTestAutomation\Ch3\strings\testsuites\string_manipulation.txt" id="s1-s1" name="String Manipulation">
+<test id="s1-s1-t1" timeout="" name="Test builtin keywords first">
+<kw type="kw" name="BuiltIn.Length Should Be" timeout="">
+<doc>Verifies that the length of the given item is correct.</doc>
+<arguments>
+<arg>Packt</arg>
+<arg>5</arg>
+</arguments>
+<msg timestamp="20130926 15:29:29.185" level="INFO">Length is 5</msg>
+<status status="PASS" endtime="20130926 15:29:29.185" starttime="20130926 15:29:29.185"></status>
+</kw>
+<kw type="kw" name="BuiltIn.Should Not Be Empty" timeout="">
+<doc>Verifies that the given item is not empty.</doc>
+<arguments>
+<arg>something</arg>
+</arguments>
+<msg timestamp="20130926 15:29:29.186" level="INFO">Length is 9</msg>
+<status status="PASS" endtime="20130926 15:29:29.186" starttime="20130926 15:29:29.186"></status>
+</kw>
+<kw type="kw" name="BuiltIn.Should Be Equal" timeout="">
+<doc>Fails if the given objects are unequal.</doc>
+<arguments>
+<arg>equal4all</arg>
+<arg>equal4all</arg>
+</arguments>
+<msg timestamp="20130926 15:29:29.186" level="INFO">Argument types are:
+&lt;type 'unicode'&gt;
+&lt;type 'unicode'&gt;</msg>
+<status status="PASS" endtime="20130926 15:29:29.187" starttime="20130926 15:29:29.186"></status>
+</kw>
+<kw type="kw" name="BuiltIn.Should Not Be Equal" timeout="">
+<doc>Fails if the given objects are equal.</doc>
+<arguments>
+<arg>Byt4lot</arg>
+<arg>byt4lot</arg>
+</arguments>
+<msg timestamp="20130926 15:29:29.187" level="INFO">Argument types are:
+&lt;type 'unicode'&gt;
+&lt;type 'unicode'&gt;</msg>
+<status status="PASS" endtime="20130926 15:29:29.187" starttime="20130926 15:29:29.187"></status>
+</kw>
+<kw type="kw" name="BuiltIn.Should Not Contain" timeout="">
+<doc>Fails if `item1` contains `item2` one or more times.</doc>
+<arguments>
+<arg>Robot Framework Test Automation</arg>
+<arg>test</arg>
+</arguments>
+<status status="PASS" endtime="20130926 15:29:29.188" starttime="20130926 15:29:29.187"></status>
+</kw>
+<kw type="kw" name="BuiltIn.Should Contain" timeout="">
+<doc>Fails if `item1` does not contain `item2` one or more times.</doc>
+<arguments>
+<arg>Robot Framework Test Automation</arg>
+<arg>est</arg>
+</arguments>
+<status status="PASS" endtime="20130926 15:29:29.188" starttime="20130926 15:29:29.188"></status>
+</kw>
+<kw type="kw" name="BuiltIn.Should End With" timeout="">
+<doc>Fails if the string `str1` does not end with the string `str2`.</doc>
+<arguments>
+<arg>Packed Publication</arg>
+<arg>Publication</arg>
+</arguments>
+<status status="PASS" endtime="20130926 15:29:29.188" starttime="20130926 15:29:29.188"></status>
+</kw>
+<doc></doc>
+<tags>
+</tags>
+<status status="PASS" endtime="20130926 15:29:29.188" critical="yes" starttime="20130926 15:29:29.182"></status>
+</test>
+<test id="s1-s1-t2" timeout="" name="Test String library keywords">
+<kw type="kw" name="${pin} = String.Generate Random String" timeout="">
+<doc>Generates a string with a desired `length` from the given `chars`.</doc>
+<arguments>
+<arg>6</arg>
+</arguments>
+<msg timestamp="20130926 15:29:29.192" level="INFO">${pin} = G9tOCq</msg>
+<status status="PASS" endtime="20130926 15:29:29.192" starttime="20130926 15:29:29.192"></status>
+</kw>
+<kw type="kw" name="BuiltIn.Log" timeout="">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>The generated pin is '${pin}'</arg>
+</arguments>
+<msg timestamp="20130926 15:29:29.193" level="INFO">The generated pin is 'G9tOCq'</msg>
+<status status="PASS" endtime="20130926 15:29:29.193" starttime="20130926 15:29:29.193"></status>
+</kw>
+<kw type="kw" name="${subject} = String.Fetch From Right" timeout="">
+<doc>Returns contents of the `string` after the last occurrence of `marker`.</doc>
+<arguments>
+<arg>Robot Framework Test Automation</arg>
+<arg>Framework</arg>
+</arguments>
+<msg timestamp="20130926 15:29:29.194" level="INFO">${subject} =  Test Automation</msg>
+<status status="PASS" endtime="20130926 15:29:29.194" starttime="20130926 15:29:29.193"></status>
+</kw>
+<kw type="kw" name="BuiltIn.Log" timeout="">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>The book deals with${subject}</arg>
+</arguments>
+<msg timestamp="20130926 15:29:29.194" level="INFO">The book deals with Test Automation</msg>
+<status status="PASS" endtime="20130926 15:29:29.194" starttime="20130926 15:29:29.194"></status>
+</kw>
+<kw type="kw" name="String.Should Be String" timeout="">
+<doc>Fails if the given `item` is not a string.</doc>
+<arguments>
+<arg>this is a string</arg>
+</arguments>
+<status status="PASS" endtime="20130926 15:29:29.195" starttime="20130926 15:29:29.195"></status>
+</kw>
+<kw type="kw" name="String.Should Not Be String" timeout="">
+<doc>Fails if the given `item` is a string.</doc>
+<arguments>
+<arg>24.0</arg>
+</arguments>
+<msg timestamp="20130926 15:29:29.195" level="FAIL">'24.0' is a string.</msg>
+<status status="FAIL" endtime="20130926 15:29:29.196" starttime="20130926 15:29:29.195"></status>
+</kw>
+<doc></doc>
+<tags>
+</tags>
+<status status="FAIL" endtime="20130926 15:29:29.196" critical="yes" starttime="20130926 15:29:29.189">'24.0' is a string.</status>
+</test>
+<doc></doc>
+<metadata>
+</metadata>
+<status status="FAIL" endtime="20130926 15:29:29.199" starttime="20130926 15:29:29.177"></status>
+</suite>
+<doc></doc>
+<metadata>
+</metadata>
+<status status="FAIL" endtime="20130926 15:29:29.205" starttime="20130926 15:29:29.154"></status>
+</suite>
+<statistics>
+<total>
+<stat fail="1" pass="1">Critical Tests</stat>
+<stat fail="1" pass="1">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat fail="1" pass="1" id="s1" name="Testsuites">Testsuites</stat>
+<stat fail="1" pass="1" id="s1-s1" name="String Manipulation">Testsuites.String Manipulation</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

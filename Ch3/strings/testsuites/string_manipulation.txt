@@ -1,0 +1,19 @@
+*** Setting ***
+Library  String
+*** Test Cases ***
+Test builtin keywords first
+  Length should be  Packt  5
+  Should not be empty  something
+  Should be equal  equal4all  equal4all
+  Should not be equal  Byt4lot  byt4lot
+  Should not contain  Robot Framework Test Automation  test
+  Should contain  Robot Framework Test Automation  est
+  Should end with  Packed Publication  Publication
+
+Test String library keywords
+  ${pin}=  Generate Random String  6
+  Log  The generated pin is '${pin}'
+  ${subject}  Fetch from right  Robot Framework Test Automation  Framework
+  Log  The book deals with${subject}
+  Should be string  this is a string
+  
