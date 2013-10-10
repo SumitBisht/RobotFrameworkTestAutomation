@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generated="20130926 11:34:25.966" generator="Robot 2.7.7 (Python 2.7 on win32)">
+<suite source="E:\repo\RobotFrameworkTestAutomation\Ch3\dialogs\testsuites" id="s1" name="Testsuites">
+<suite source="E:\repo\RobotFrameworkTestAutomation\Ch3\dialogs\testsuites\dialog_test.txt" id="s1-s1" name="Dialog Test">
+<test id="s1-s1-t1" timeout="" name="Use manual entry to continue">
+<kw type="kw" name="BuiltIn.Log" timeout="">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>Starting test execution</arg>
+</arguments>
+<msg timestamp="20130926 11:34:26.001" level="INFO">Starting test execution</msg>
+<status status="PASS" endtime="20130926 11:34:26.001" starttime="20130926 11:34:26.001"></status>
+</kw>
+<kw type="kw" name="Dialogs.Execute Manual Step" timeout="">
+<doc>Pauses test execution until user sets the keyword status.</doc>
+<arguments>
+<arg>Perform manual operation and continue</arg>
+</arguments>
+<status status="PASS" endtime="20130926 11:34:27.749" starttime="20130926 11:34:26.002"></status>
+</kw>
+<kw type="kw" name="BuiltIn.Log" timeout="">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>Continue test execution</arg>
+</arguments>
+<msg timestamp="20130926 11:34:27.750" level="INFO">Continue test execution</msg>
+<status status="PASS" endtime="20130926 11:34:27.750" starttime="20130926 11:34:27.750"></status>
+</kw>
+<doc></doc>
+<tags>
+</tags>
+<status status="PASS" endtime="20130926 11:34:27.750" critical="yes" starttime="20130926 11:34:25.999"></status>
+</test>
+<test id="s1-s1-t2" timeout="" name="Obtain user input">
+<kw type="kw" name="${selection1} = Dialogs.Get Value From User" timeout="">
+<doc>Pauses test execution and asks user to input a value.</doc>
+<arguments>
+<arg>Enter first value</arg>
+<arg>Ravishing Red</arg>
+</arguments>
+<msg timestamp="20130926 11:34:28.486" level="INFO">${selection1} = Ravishing Red</msg>
+<status status="PASS" endtime="20130926 11:34:28.486" starttime="20130926 11:34:27.754"></status>
+</kw>
+<kw type="kw" name="${selection2} = Dialogs.Get Value From User" timeout="">
+<doc>Pauses test execution and asks user to input a value.</doc>
+<arguments>
+<arg>Enter second value</arg>
+<arg>Sparkling Silver</arg>
+</arguments>
+<msg timestamp="20130926 11:34:28.965" level="INFO">${selection2} = Sparkling Silver</msg>
+<status status="PASS" endtime="20130926 11:34:28.965" starttime="20130926 11:34:28.486"></status>
+</kw>
+<kw type="kw" name="${selection3} = Dialogs.Get Value From User" timeout="">
+<doc>Pauses test execution and asks user to input a value.</doc>
+<arguments>
+<arg>Enter third value</arg>
+<arg>Glorious Gold</arg>
+</arguments>
+<msg timestamp="20130926 11:34:29.429" level="INFO">${selection3} = Glorious Gold</msg>
+<status status="PASS" endtime="20130926 11:34:29.429" starttime="20130926 11:34:28.966"></status>
+</kw>
+<kw type="kw" name="${selection4} = Dialogs.Get Value From User" timeout="">
+<doc>Pauses test execution and asks user to input a value.</doc>
+<arguments>
+<arg>Enter fourth value</arg>
+<arg>Whitest White</arg>
+</arguments>
+<msg timestamp="20130926 11:34:30.181" level="INFO">${selection4} = Whitest White</msg>
+<status status="PASS" endtime="20130926 11:34:30.181" starttime="20130926 11:34:29.430"></status>
+</kw>
+<kw type="kw" name="Dialogs.Pause Execution" timeout="">
+<doc>Pauses test execution until user clicks `Ok` button.</doc>
+<arguments>
+<arg>Test execution paused, click OK to continue</arg>
+</arguments>
+<status status="PASS" endtime="20130926 11:34:31.741" starttime="20130926 11:34:30.182"></status>
+</kw>
+<kw type="kw" name="Dialogs.Get Selection From User" timeout="">
+<doc>Pauses test execution and asks user to select a value.</doc>
+<arguments>
+<arg>Enter the color to use, cancel to exit.</arg>
+<arg>${selection1}</arg>
+<arg>${selection2}</arg>
+<arg>${selection3}</arg>
+<arg>${selection4}</arg>
+</arguments>
+<status status="PASS" endtime="20130926 11:34:33.261" starttime="20130926 11:34:31.742"></status>
+</kw>
+<doc></doc>
+<tags>
+</tags>
+<status status="PASS" endtime="20130926 11:34:33.262" critical="yes" starttime="20130926 11:34:27.751"></status>
+</test>
+<doc></doc>
+<metadata>
+</metadata>
+<status status="PASS" endtime="20130926 11:34:33.263" starttime="20130926 11:34:25.988"></status>
+</suite>
+<doc></doc>
+<metadata>
+</metadata>
+<status status="PASS" endtime="20130926 11:34:33.269" starttime="20130926 11:34:25.966"></status>
+</suite>
+<statistics>
+<total>
+<stat fail="0" pass="2">Critical Tests</stat>
+<stat fail="0" pass="2">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat fail="0" pass="2" id="s1" name="Testsuites">Testsuites</stat>
+<stat fail="0" pass="2" id="s1-s1" name="Dialog Test">Testsuites.Dialog Test</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

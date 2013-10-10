@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generated="20130926 12:01:40.902" generator="Robot 2.7.7 (Python 2.7 on win32)">
+<suite source="E:\repo\RobotFrameworkTestAutomation\Ch3\operating_system\testsuites" id="s1" name="Testsuites">
+<suite source="E:\repo\RobotFrameworkTestAutomation\Ch3\operating_system\testsuites\file_operations.txt" id="s1-s1" name="File Operations">
+<test id="s1-s1-t1" timeout="" name="File Operations">
+<kw type="kw" name="OperatingSystem.File Should Not Exist" timeout="">
+<doc>Fails if the given path points to an existing file.</doc>
+<arguments>
+<arg>../custom_file</arg>
+</arguments>
+<msg timestamp="20130926 12:01:40.940" html="yes" level="INFO">File '&lt;a href="file://E:\repo\RobotFrameworkTestAutomation\Ch3\custom_file"&gt;E:\repo\RobotFrameworkTestAutomation\Ch3\custom_file&lt;/a&gt;' does not exist</msg>
+<status status="PASS" endtime="20130926 12:01:40.941" starttime="20130926 12:01:40.940"></status>
+</kw>
+<kw type="kw" name="OperatingSystem.Create File" timeout="">
+<doc>Creates a file with the given content and encoding.</doc>
+<arguments>
+<arg>../custom_file</arg>
+<arg>This file is created with robot framework test.</arg>
+</arguments>
+<msg timestamp="20130926 12:01:40.942" html="yes" level="INFO">Created file '&lt;a href="file://E:\repo\RobotFrameworkTestAutomation\Ch3\custom_file"&gt;E:\repo\RobotFrameworkTestAutomation\Ch3\custom_file&lt;/a&gt;'</msg>
+<status status="PASS" endtime="20130926 12:01:40.942" starttime="20130926 12:01:40.941"></status>
+</kw>
+<kw type="kw" name="OperatingSystem.File Should Exist" timeout="">
+<doc>Fails unless the given `path` points to an existing file.</doc>
+<arguments>
+<arg>../custom_file</arg>
+</arguments>
+<msg timestamp="20130926 12:01:40.943" html="yes" level="INFO">File '&lt;a href="file://E:\repo\RobotFrameworkTestAutomation\Ch3\custom_file"&gt;E:\repo\RobotFrameworkTestAutomation\Ch3\custom_file&lt;/a&gt;' exists</msg>
+<status status="PASS" endtime="20130926 12:01:40.943" starttime="20130926 12:01:40.943"></status>
+</kw>
+<kw type="kw" name="${contents} = OperatingSystem.Get File" timeout="">
+<doc>Returns the contents of a specified file.</doc>
+<arguments>
+<arg>../custom_file</arg>
+</arguments>
+<msg timestamp="20130926 12:01:40.944" html="yes" level="INFO">Getting file '&lt;a href="file://E:\repo\RobotFrameworkTestAutomation\Ch3\custom_file"&gt;E:\repo\RobotFrameworkTestAutomation\Ch3\custom_file&lt;/a&gt;'</msg>
+<msg timestamp="20130926 12:01:40.944" level="INFO">${contents} = This file is created with robot framework test.</msg>
+<status status="PASS" endtime="20130926 12:01:40.944" starttime="20130926 12:01:40.943"></status>
+</kw>
+<kw type="kw" name="BuiltIn.Log" timeout="">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>${contents}</arg>
+</arguments>
+<msg timestamp="20130926 12:01:40.944" level="INFO">This file is created with robot framework test.</msg>
+<status status="PASS" endtime="20130926 12:01:40.944" starttime="20130926 12:01:40.944"></status>
+</kw>
+<kw type="kw" name="OperatingSystem.Remove File" timeout="">
+<doc>Removes a file with the given path.</doc>
+<arguments>
+<arg>../custom_file</arg>
+</arguments>
+<msg timestamp="20130926 12:01:40.945" html="yes" level="INFO">Removed file '&lt;a href="file://E:\repo\RobotFrameworkTestAutomation\Ch3\custom_file"&gt;E:\repo\RobotFrameworkTestAutomation\Ch3\custom_file&lt;/a&gt;'</msg>
+<status status="PASS" endtime="20130926 12:01:40.945" starttime="20130926 12:01:40.945"></status>
+</kw>
+<kw type="kw" name="OperatingSystem.File Should Not Exist" timeout="">
+<doc>Fails if the given path points to an existing file.</doc>
+<arguments>
+<arg>../custom_file</arg>
+</arguments>
+<msg timestamp="20130926 12:01:40.946" html="yes" level="INFO">File '&lt;a href="file://E:\repo\RobotFrameworkTestAutomation\Ch3\custom_file"&gt;E:\repo\RobotFrameworkTestAutomation\Ch3\custom_file&lt;/a&gt;' does not exist</msg>
+<status status="PASS" endtime="20130926 12:01:40.946" starttime="20130926 12:01:40.946"></status>
+</kw>
+<doc></doc>
+<tags>
+</tags>
+<status status="PASS" endtime="20130926 12:01:40.946" critical="yes" starttime="20130926 12:01:40.938"></status>
+</test>
+<test id="s1-s1-t2" timeout="" name="Call some process">
+<kw type="kw" name="${results} = OperatingSystem.Run" timeout="">
+<doc>Runs the given command in the system and returns the output.</doc>
+<arguments>
+<arg>ls -l</arg>
+</arguments>
+<msg timestamp="20130926 12:01:40.951" level="INFO">Running command 'ls -l 2&gt;&amp;1'</msg>
+<msg timestamp="20130926 12:01:40.967" level="INFO">${results} = total 2
+drwxr-xr-x 2 laitkor Administrators  0 Sep 26 11:55 results
+-rwxr-xr-x 1 laitkor Administrators 67 Sep 26 09:51 run.bat
+-rw-r--r-- 1 laitkor Administrators 67 Sep 26 09:51 run.sh
+drwxr-xr-x 2 ...</msg>
+<status status="PASS" endtime="20130926 12:01:40.967" starttime="20130926 12:01:40.949"></status>
+</kw>
+<kw type="kw" name="BuiltIn.Log" timeout="">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>${results}</arg>
+</arguments>
+<msg timestamp="20130926 12:01:40.968" level="INFO">total 2
+drwxr-xr-x 2 laitkor Administrators  0 Sep 26 11:55 results
+-rwxr-xr-x 1 laitkor Administrators 67 Sep 26 09:51 run.bat
+-rw-r--r-- 1 laitkor Administrators 67 Sep 26 09:51 run.sh
+drwxr-xr-x 2 laitkor Administrators  0 Sep 26 12:01 testsuites</msg>
+<status status="PASS" endtime="20130926 12:01:40.968" starttime="20130926 12:01:40.967"></status>
+</kw>
+<doc></doc>
+<tags>
+</tags>
+<status status="PASS" endtime="20130926 12:01:40.968" critical="yes" starttime="20130926 12:01:40.947"></status>
+</test>
+<test id="s1-s1-t3" timeout="" name="Environment Variables">
+<kw type="kw" name="OperatingSystem.Set Environment Variable" timeout="">
+<doc>Sets an environment variable to a specified value.</doc>
+<arguments>
+<arg>Drink</arg>
+<arg>Mineral Water</arg>
+</arguments>
+<msg timestamp="20130926 12:01:40.972" level="INFO">Environment variable 'Drink' set to value 'Mineral Water'</msg>
+<status status="PASS" endtime="20130926 12:01:40.972" starttime="20130926 12:01:40.971"></status>
+</kw>
+<kw type="kw" name="${drink} = OperatingSystem.Get Environment Variable" timeout="">
+<doc>Returns the value of an environment variable with the given name.</doc>
+<arguments>
+<arg>Drink</arg>
+</arguments>
+<msg timestamp="20130926 12:01:40.972" level="INFO">${drink} = Mineral Water</msg>
+<status status="PASS" endtime="20130926 12:01:40.972" starttime="20130926 12:01:40.972"></status>
+</kw>
+<kw type="kw" name="BuiltIn.Log" timeout="">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>I like drinking ${drink}</arg>
+</arguments>
+<msg timestamp="20130926 12:01:40.973" level="INFO">I like drinking Mineral Water</msg>
+<status status="PASS" endtime="20130926 12:01:40.973" starttime="20130926 12:01:40.972"></status>
+</kw>
+<doc></doc>
+<tags>
+</tags>
+<status status="PASS" endtime="20130926 12:01:40.973" critical="yes" starttime="20130926 12:01:40.969"></status>
+</test>
+<doc></doc>
+<metadata>
+</metadata>
+<status status="PASS" endtime="20130926 12:01:40.974" starttime="20130926 12:01:40.923"></status>
+</suite>
+<doc></doc>
+<metadata>
+</metadata>
+<status status="PASS" endtime="20130926 12:01:40.981" starttime="20130926 12:01:40.902"></status>
+</suite>
+<statistics>
+<total>
+<stat fail="0" pass="3">Critical Tests</stat>
+<stat fail="0" pass="3">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat fail="0" pass="3" id="s1" name="Testsuites">Testsuites</stat>
+<stat fail="0" pass="3" id="s1-s1" name="File Operations">Testsuites.File Operations</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

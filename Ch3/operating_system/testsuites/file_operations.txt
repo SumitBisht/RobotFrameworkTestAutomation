@@ -1,0 +1,20 @@
+*** Setting ***
+Library  OperatingSystem
+*** Test Cases ***
+File Operations
+  File should not exist  ../custom_file
+  Create File  ../custom_file  This file is created with robot framework test.
+  File should exist  ../custom_file
+  ${contents}  Get File  ../custom_file
+  LOG  ${contents}
+  Remove File  ../custom_file
+  File should not exist  ../custom_file
+
+Call some process
+  ${results}=  Run  ls -l
+  LOG  ${results}
+
+Environment Variables
+  Set Environment Variable  Drink  Mineral Water
+  ${drink}  Get Environment Variable  Drink
+  LOG  I like drinking ${drink}

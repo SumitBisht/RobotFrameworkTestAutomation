@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generated="20130926 11:08:33.969" generator="Robot 2.7.7 (Python 2.7 on win32)">
+<suite source="E:\repo\RobotFrameworkTestAutomation\Ch3\collections\testsuites" id="s1" name="Testsuites">
+<suite source="E:\repo\RobotFrameworkTestAutomation\Ch3\collections\testsuites\Collection_Example.txt" id="s1-s1" name="Collection Example">
+<test id="s1-s1-t1" timeout="" name="Verify lists structure">
+<kw type="kw" name="BuiltIn.Should Not Be Empty" timeout="">
+<doc>Verifies that the given item is not empty.</doc>
+<arguments>
+<arg>${DAYS}</arg>
+</arguments>
+<msg timestamp="20130926 11:08:34.001" level="INFO">Length is 4</msg>
+<status status="PASS" endtime="20130926 11:08:34.001" starttime="20130926 11:08:34.001"></status>
+</kw>
+<kw type="kw" name="BuiltIn.Should Contain" timeout="">
+<doc>Fails if `item1` does not contain `item2` one or more times.</doc>
+<arguments>
+<arg>${DAYS}</arg>
+<arg>Wednesday</arg>
+</arguments>
+<status status="PASS" endtime="20130926 11:08:34.002" starttime="20130926 11:08:34.002"></status>
+</kw>
+<kw type="kw" name="BuiltIn.Should Not Contain" timeout="">
+<doc>Fails if `item1` contains `item2` one or more times.</doc>
+<arguments>
+<arg>${DAYS}</arg>
+<arg>Saturday</arg>
+</arguments>
+<status status="PASS" endtime="20130926 11:08:34.003" starttime="20130926 11:08:34.002"></status>
+</kw>
+<kw type="kw" name="Collections.Append To List" timeout="">
+<doc>Adds `values` to the end of `list`.</doc>
+<arguments>
+<arg>${DAYS}</arg>
+<arg>Saturday</arg>
+</arguments>
+<status status="PASS" endtime="20130926 11:08:34.003" starttime="20130926 11:08:34.003"></status>
+</kw>
+<kw type="kw" name="BuiltIn.Should Contain" timeout="">
+<doc>Fails if `item1` does not contain `item2` one or more times.</doc>
+<arguments>
+<arg>${DAYS}</arg>
+<arg>Saturday</arg>
+</arguments>
+<status status="PASS" endtime="20130926 11:08:34.004" starttime="20130926 11:08:34.003"></status>
+</kw>
+<kw type="kw" name="${constructed_days} = BuiltIn.Create List" timeout="">
+<doc>Returns a list containing given items.</doc>
+<arguments>
+<arg>Monday</arg>
+<arg>Wednesday</arg>
+<arg>Friday</arg>
+<arg>Sunday</arg>
+<arg>Saturday</arg>
+</arguments>
+<msg timestamp="20130926 11:08:34.004" level="INFO">${constructed_days} = [u'Monday', u'Wednesday', u'Friday', u'Sunday', u'Saturday']</msg>
+<status status="PASS" endtime="20130926 11:08:34.004" starttime="20130926 11:08:34.004"></status>
+</kw>
+<kw type="kw" name="Collections.Lists Should Be Equal" timeout="">
+<doc>Fails if given lists are unequal.</doc>
+<arguments>
+<arg>${DAYS}</arg>
+<arg>${constructed_days}</arg>
+</arguments>
+<status status="PASS" endtime="20130926 11:08:34.005" starttime="20130926 11:08:34.005"></status>
+</kw>
+<doc></doc>
+<tags>
+</tags>
+<status status="PASS" endtime="20130926 11:08:34.005" critical="yes" starttime="20130926 11:08:33.999"></status>
+</test>
+<test id="s1-s1-t2" timeout="" name="Verify dictionary info">
+<kw type="kw" name="BuiltIn.Should Not Be Empty" timeout="">
+<doc>Verifies that the given item is not empty.</doc>
+<arguments>
+<arg>${details}</arg>
+</arguments>
+<msg timestamp="20130926 11:08:34.009" level="INFO">Length is 3</msg>
+<status status="PASS" endtime="20130926 11:08:34.009" starttime="20130926 11:08:34.009"></status>
+</kw>
+<kw type="kw" name="Collections.Dictionary Should Contain Key" timeout="">
+<doc>Fails if `key` is not found from `dictionary`.</doc>
+<arguments>
+<arg>${details}</arg>
+<arg>genre</arg>
+</arguments>
+<status status="PASS" endtime="20130926 11:08:34.009" starttime="20130926 11:08:34.009"></status>
+</kw>
+<kw type="kw" name="Collections.Dictionary Should Contain Value" timeout="">
+<doc>Fails if `value` is not found from `dictionary`.</doc>
+<arguments>
+<arg>${details}</arg>
+<arg>open-source</arg>
+</arguments>
+<status status="PASS" endtime="20130926 11:08:34.010" starttime="20130926 11:08:34.010"></status>
+</kw>
+<kw type="kw" name="Collections.Remove From Dictionary" timeout="">
+<doc>Removes the given `keys` from the `dictionary`.</doc>
+<arguments>
+<arg>${details}</arg>
+<arg>genre</arg>
+</arguments>
+<msg timestamp="20130926 11:08:34.010" level="INFO">Removed item with key 'genre' and value 'open-source'</msg>
+<status status="PASS" endtime="20130926 11:08:34.010" starttime="20130926 11:08:34.010"></status>
+</kw>
+<kw type="kw" name="Collections.Dictionary Should Not Contain Key" timeout="">
+<doc>Fails if `key` is found from `dictionary`.</doc>
+<arguments>
+<arg>${details}</arg>
+<arg>genre</arg>
+</arguments>
+<status status="PASS" endtime="20130926 11:08:34.011" starttime="20130926 11:08:34.011"></status>
+</kw>
+<kw type="kw" name="Collections.Dictionary Should Not Contain Value" timeout="">
+<doc>Fails if `value` is found from `dictionary`.</doc>
+<arguments>
+<arg>${details}</arg>
+<arg>open-source</arg>
+</arguments>
+<status status="PASS" endtime="20130926 11:08:34.011" starttime="20130926 11:08:34.011"></status>
+</kw>
+<kw type="kw" name="BuiltIn.Length Should Be" timeout="">
+<doc>Verifies that the length of the given item is correct.</doc>
+<arguments>
+<arg>${details}</arg>
+<arg>2</arg>
+</arguments>
+<msg timestamp="20130926 11:08:34.012" level="INFO">Length is 2</msg>
+<status status="PASS" endtime="20130926 11:08:34.012" starttime="20130926 11:08:34.011"></status>
+</kw>
+<doc></doc>
+<tags>
+</tags>
+<status status="PASS" endtime="20130926 11:08:34.012" critical="yes" starttime="20130926 11:08:34.006"></status>
+</test>
+<doc></doc>
+<metadata>
+</metadata>
+<status status="PASS" endtime="20130926 11:08:34.013" starttime="20130926 11:08:33.991"></status>
+</suite>
+<doc></doc>
+<metadata>
+</metadata>
+<status status="PASS" endtime="20130926 11:08:34.019" starttime="20130926 11:08:33.969"></status>
+</suite>
+<statistics>
+<total>
+<stat fail="0" pass="2">Critical Tests</stat>
+<stat fail="0" pass="2">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat fail="0" pass="2" id="s1" name="Testsuites">Testsuites</stat>
+<stat fail="0" pass="2" id="s1-s1" name="Collection Example">Testsuites.Collection Example</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
