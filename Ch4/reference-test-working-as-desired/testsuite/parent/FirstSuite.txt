@@ -1,0 +1,6 @@
+***Settings***
+Library  TestAction1.XTest  WITH NAME  TestAction1
+***Test Cases***
+
+Test Case 1
+	TestAction1.Execute

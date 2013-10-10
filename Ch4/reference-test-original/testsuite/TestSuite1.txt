@@ -1,0 +1,11 @@
+***Settings***
+Library  TestAction1.XTest  WITH NAME  TestAction1
+Library  2ndcase1staction.XTest  WITH NAME  2ndcase1staction
+Library  anotheraction.XTest  WITH NAME  anotheraction
+***Test Cases***
+
+Test Case 1
+	TestAction1.Execute
+Test Case 2
+	2ndcase1staction.Execute
+	anotheraction.Execute

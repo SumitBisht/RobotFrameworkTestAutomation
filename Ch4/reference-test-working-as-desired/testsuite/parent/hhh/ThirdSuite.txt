@@ -1,0 +1,6 @@
+***Settings***
+Library  anotheraction.XTest  WITH NAME  anotheraction
+***Test Cases***
+
+Test Case 1
+	anotheraction.Execute
