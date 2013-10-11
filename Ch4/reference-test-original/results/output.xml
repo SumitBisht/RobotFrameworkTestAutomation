@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot trunk 20130614 (Jython 2.5.2 on java1.7.0_25)" generated="20131011 00:42:13.970">
+<suite source="C:\Documents and Settings\sumit\Desktop\sikuli\28\RF RnD\reference-test-original\testsuite" id="s1" name="Testsuite">
+<suite source="C:\Documents and Settings\sumit\Desktop\sikuli\28\RF RnD\reference-test-original\testsuite\TestSuite1.txt" id="s1-s1" name="TestSuite1">
+<test id="s1-s1-t1" name="Test Case 1">
+<kw type="kw" name="TestAction1.Execute">
+<doc></doc>
+<arguments>
+</arguments>
+<msg timestamp="20131011 00:42:18.036" level="TRACE">Arguments: [  ]</msg>
+<msg timestamp="20131011 00:42:19.818" level="INFO">[log] TYPE "this is a reference test example"</msg>
+<msg timestamp="20131011 00:42:19.818" level="TRACE">Return: None</msg>
+<status status="PASS" endtime="20131011 00:42:19.818" starttime="20131011 00:42:18.036"></status>
+</kw>
+<doc></doc>
+<tags>
+</tags>
+<status status="PASS" critical="yes" endtime="20131011 00:42:19.828" starttime="20131011 00:42:18.026"></status>
+</test>
+<test id="s1-s1-t2" name="Test Case 2">
+<kw type="kw" name="2ndcase1staction.Execute">
+<doc></doc>
+<arguments>
+</arguments>
+<msg timestamp="20131011 00:42:19.848" level="TRACE">Arguments: [  ]</msg>
+<msg timestamp="20131011 00:42:22.442" level="INFO">[log] TYPE "case changed"</msg>
+<msg timestamp="20131011 00:42:22.442" level="TRACE">Return: None</msg>
+<status status="PASS" endtime="20131011 00:42:22.442" starttime="20131011 00:42:19.848"></status>
+</kw>
+<kw type="kw" name="anotheraction.Execute">
+<doc></doc>
+<arguments>
+</arguments>
+<msg timestamp="20131011 00:42:22.462" level="TRACE">Arguments: [  ]</msg>
+<msg timestamp="20131011 00:42:26.748" level="INFO">[log] TYPE "5 "
+[log] TYPE "4 "
+[log] TYPE "3 "
+[log] TYPE "2 "
+[log] TYPE "1 "
+[log] TYPE "0 "
+[log] TYPE " boom"</msg>
+<msg timestamp="20131011 00:42:26.748" level="TRACE">Return: None</msg>
+<status status="PASS" endtime="20131011 00:42:26.748" starttime="20131011 00:42:22.462"></status>
+</kw>
+<doc></doc>
+<tags>
+</tags>
+<status status="PASS" critical="yes" endtime="20131011 00:42:26.768" starttime="20131011 00:42:19.828"></status>
+</test>
+<doc></doc>
+<metadata>
+</metadata>
+<status status="PASS" endtime="20131011 00:42:26.778" starttime="20131011 00:42:14.841"></status>
+</suite>
+<doc></doc>
+<metadata>
+</metadata>
+<status status="PASS" endtime="20131011 00:42:26.848" starttime="20131011 00:42:13.980"></status>
+</suite>
+<statistics>
+<total>
+<stat pass="2" fail="0">Critical Tests</stat>
+<stat pass="2" fail="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="2" id="s1" fail="0" name="Testsuite">Testsuite</stat>
+<stat pass="2" id="s1-s1" fail="0" name="TestSuite1">Testsuite.TestSuite1</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

@@ -1,0 +1,6 @@
+***Settings***
+Library  2ndcase1staction.XTest  WITH NAME  2ndcase1staction
+***Test Cases***
+
+Test Case 1
+	2ndcase1staction.Execute

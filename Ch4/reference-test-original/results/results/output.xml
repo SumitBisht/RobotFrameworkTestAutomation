@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot trunk 20130614 (Jython 2.5.2 on java1.7.0_25)" generated="20131002 20:13:02.826">
+<suite source="C:\Documents and Settings\sumit\Desktop\sikuli\28\RF RnD\reference-test-original\testsuite" id="s1" name="Testsuite">
+<suite source="C:\Documents and Settings\sumit\Desktop\sikuli\28\RF RnD\reference-test-original\testsuite\TestSuite1.txt" id="s1-s1" name="TestSuite1">
+<test id="s1-s1-t1" name="Test Case 1">
+<kw type="kw" name="TestAction1.Execute">
+<doc></doc>
+<arguments>
+</arguments>
+<msg timestamp="20131002 20:13:03.908" level="FAIL">No keyword with name 'TestAction1.Execute' found.</msg>
+<status status="FAIL" endtime="20131002 20:13:03.908" starttime="20131002 20:13:03.898"></status>
+</kw>
+<doc></doc>
+<tags>
+</tags>
+<status status="FAIL" critical="yes" endtime="20131002 20:13:03.928" starttime="20131002 20:13:03.888">No keyword with name 'TestAction1.Execute' found.</status>
+</test>
+<test id="s1-s1-t2" name="Test Case 2">
+<kw type="kw" name="2ndcase1staction.Execute">
+<doc></doc>
+<arguments>
+</arguments>
+<msg timestamp="20131002 20:13:03.958" level="FAIL">No keyword with name '2ndcase1staction.Execute' found.</msg>
+<status status="FAIL" endtime="20131002 20:13:03.978" starttime="20131002 20:13:03.958"></status>
+</kw>
+<doc></doc>
+<tags>
+</tags>
+<status status="FAIL" critical="yes" endtime="20131002 20:13:03.988" starttime="20131002 20:13:03.948">No keyword with name '2ndcase1staction.Execute' found.</status>
+</test>
+<doc></doc>
+<metadata>
+</metadata>
+<status status="FAIL" endtime="20131002 20:13:04.018" starttime="20131002 20:13:03.387"></status>
+</suite>
+<doc></doc>
+<metadata>
+</metadata>
+<status status="FAIL" endtime="20131002 20:13:04.058" starttime="20131002 20:13:02.836"></status>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="2">Critical Tests</stat>
+<stat pass="0" fail="2">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" id="s1" fail="2" name="Testsuite">Testsuite</stat>
+<stat pass="0" id="s1-s1" fail="2" name="TestSuite1">Testsuite.TestSuite1</stat>
+</suite>
+</statistics>
+<errors>
+<msg timestamp="20131002 20:13:03.547" level="ERROR">Error in file 'C:\Documents and Settings\sumit\Desktop\sikuli\28\RF RnD\reference-test-original\testsuite\TestSuite1.txt': Importing test library 'TestAction1.XTest' failed: ImportError: No module named sikuli
+Traceback (most recent call last):
+  File "C:\Documents and Settings\sumit\Desktop\sikuli\28\RF RnD\reference-test-original\TestLib\TestAction1.py", line 2, in &lt;module&gt;
+    from sikuliwrapper import *
+  File "C:\Documents and Settings\sumit\Desktop\sikuli\28\RF RnD\reference-test-original\TestLib\sikuliwrapper.py", line 2, in &lt;module&gt;
+    from logger import *
+  File "C:\Documents and Settings\sumit\Desktop\sikuli\28\RF RnD\reference-test-original\TestLib\logger.py", line 5, in &lt;module&gt;
+    from sikuli.Sikuli import *
+PYTHONPATH:
+  C:\Documents and Settings\sumit\Desktop\sikuli\28\RF RnD\reference-test-original\TestLib
+  C:\jython2.5.2\Lib\site-packages\robot\libraries
+  C:\jython2.5.2\Lib\site-packages
+  C:\Program Files\Sikuli X\Lib
+  C:\jython2.5.2\Lib
+  __classpath__
+  __pyclasspath__/
+  .
+  C:\Documents and Settings\sumit\Desktop\sikuli\28\RF RnD\reference-test-original
+CLASSPATH:
+  C:\jython2.5.2\jython.jar
+  C:\Program Files\Sikuli X\sikuli-script.jar
+  C:\Program Files\Sikuli X\\Lib</msg>
+<msg timestamp="20131002 20:13:03.667" level="ERROR">Error in file 'C:\Documents and Settings\sumit\Desktop\sikuli\28\RF RnD\reference-test-original\testsuite\TestSuite1.txt': Importing test library '2ndcase1staction.XTest' failed: ImportError: No module named sikuli
+Traceback (most recent call last):
+  File "C:\Documents and Settings\sumit\Desktop\sikuli\28\RF RnD\reference-test-original\TestLib\2ndcase1staction.py", line 2, in &lt;module&gt;
+    from sikuliwrapper import *
+  File "C:\Documents and Settings\sumit\Desktop\sikuli\28\RF RnD\reference-test-original\TestLib\sikuliwrapper.py", line 2, in &lt;module&gt;
+    from logger import *
+  File "C:\Documents and Settings\sumit\Desktop\sikuli\28\RF RnD\reference-test-original\TestLib\logger.py", line 5, in &lt;module&gt;
+    from sikuli.Sikuli import *
+PYTHONPATH:
+  C:\Documents and Settings\sumit\Desktop\sikuli\28\RF RnD\reference-test-original\TestLib
+  C:\jython2.5.2\Lib\site-packages\robot\libraries
+  C:\jython2.5.2\Lib\site-packages
+  C:\Program Files\Sikuli X\Lib
+  C:\jython2.5.2\Lib
+  __classpath__
+  __pyclasspath__/
+  .
+  C:\Documents and Settings\sumit\Desktop\sikuli\28\RF RnD\reference-test-original
+CLASSPATH:
+  C:\jython2.5.2\jython.jar
+  C:\Program Files\Sikuli X\sikuli-script.jar
+  C:\Program Files\Sikuli X\\Lib</msg>
+<msg timestamp="20131002 20:13:03.807" level="ERROR">Error in file 'C:\Documents and Settings\sumit\Desktop\sikuli\28\RF RnD\reference-test-original\testsuite\TestSuite1.txt': Importing test library 'anotheraction.XTest' failed: ImportError: No module named sikuli
+Traceback (most recent call last):
+  File "C:\Documents and Settings\sumit\Desktop\sikuli\28\RF RnD\reference-test-original\TestLib\anotheraction.py", line 2, in &lt;module&gt;
+    from sikuliwrapper import *
+  File "C:\Documents and Settings\sumit\Desktop\sikuli\28\RF RnD\reference-test-original\TestLib\sikuliwrapper.py", line 2, in &lt;module&gt;
+    from logger import *
+  File "C:\Documents and Settings\sumit\Desktop\sikuli\28\RF RnD\reference-test-original\TestLib\logger.py", line 5, in &lt;module&gt;
+    from sikuli.Sikuli import *
+PYTHONPATH:
+  C:\Documents and Settings\sumit\Desktop\sikuli\28\RF RnD\reference-test-original\TestLib
+  C:\jython2.5.2\Lib\site-packages\robot\libraries
+  C:\jython2.5.2\Lib\site-packages
+  C:\Program Files\Sikuli X\Lib
+  C:\jython2.5.2\Lib
+  __classpath__
+  __pyclasspath__/
+  .
+  C:\Documents and Settings\sumit\Desktop\sikuli\28\RF RnD\reference-test-original
+CLASSPATH:
+  C:\jython2.5.2\jython.jar
+  C:\Program Files\Sikuli X\sikuli-script.jar
+  C:\Program Files\Sikuli X\\Lib</msg>
+</errors>
+</robot>
