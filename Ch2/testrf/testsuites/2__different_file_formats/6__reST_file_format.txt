@@ -1,0 +1,14 @@
+============  ================  =======  =======
+  Variable         Value         Value    Value
+============  ================  =======  =======
+${Existing}    15.46
+============  ================  =======  =======
+
+=============  ===============  ================  ==========
+ Test Case         Action        Argument          Argument
+=============  ===============  ================  ==========
+Custom check   [Documentation]   custom checks
+\              Log               Starting checks
+\
+Another Test   Should Be Equal   ${Existing}        15.45
+=============  ===============  ================  ==========
